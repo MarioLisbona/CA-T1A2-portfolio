@@ -56,14 +56,15 @@ nav a:hover {
 
 .current-page-link {
     border-bottom: 2px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
 }
 
 /* disabling underline for active page link */
 .current-page-link:hover {
-    border-bottom: inherit;
-    color: var(--mountain-medium-gray);
+    /* border-bottom: inherit; */
+    /* color: var(--mountain-medium-gray); */
     border-bottom: 2px dotted var(--mountain-dark-gray);
-    cursor: inherit;
+    cursor:initial;
 }
 
 #hero-container {
