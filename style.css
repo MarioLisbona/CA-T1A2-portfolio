@@ -1,6 +1,6 @@
 /* =================ROOT========================*/
 :root {
-
+    --logo-orange: hsl(0,100%,67%);
 }
 /* =================/ROOT========================*/
 
@@ -14,11 +14,23 @@
 }
 /* =================/RESETS========================*/
 
-/* Coder Academy Footer */
-.attribution {
+
+
+
+
+
+
+
+
+
+
+
+/* ===========Coder Academy footer=================*/
+/* .attribution {
     font-size: 11px;
     text-align: center;
 }
 .attribution a { 
     color: hsl(194,53%,52%); 
-}
+ } */
+/* ===========Coder Academy footer=================*/
