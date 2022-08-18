@@ -35,6 +35,7 @@ header {
     top: 0;
     background: hsla(0, 0%, 100%, .75);
     border-bottom: 1px solid var(--mountain-light-gray);
+    max-height: 100px;
 }
 
 #logo {
@@ -73,6 +74,7 @@ nav a:hover {
     background: url(./images/paul-pastourmatzis-r0J9sGBWFOc-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
     background-size: cover;
     height: 50vw;
+    max-height: 300px;
 }
 
 main {
