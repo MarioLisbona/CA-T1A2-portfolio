@@ -42,6 +42,12 @@ nav a {
     text-decoration: none;
     margin: 0 0.5rem;
     font-family: 'Roboto Slab', serif;
+
+}
+
+nav a:hover {
+    border-bottom: 2px solid var(--mountain-dark-gray);
+    color: var(--logo-orange);
 }
 
 #hero-container {
@@ -104,8 +110,14 @@ article input {
 
 .btn-subscribe {
     background: var(--mountain-light-gray);
+    border: 1px solid var(--mountain-dark-gray);
     color: var(--cloud-white);
     margin: 0 0 3rem 0;
+}
+
+.btn-subscribe:hover {
+    background-color: var(--logo-orange);
+    cursor: pointer;
 }
 
 .social-links {
