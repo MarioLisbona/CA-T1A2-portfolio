@@ -1,6 +1,7 @@
 /* =================ROOT========================*/
 :root {
     --logo-orange: hsl(0,100%,67%);
+    --mountain-light-gray: hsl(40,2%,47%);
 }
 /* =================/ROOT========================*/
 
@@ -11,9 +12,34 @@
     margin: 0;
     padding: 0;
     /* outline: 1px solid black; */
+
+    /* font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Slab', serif; */
 }
 /* =================/RESETS========================*/
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+#logo {
+    width: 13vw;
+}
+
+nav a {
+    color: var(--mountain-light-gray);
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-family: 'Roboto Slab', serif;
+}
 
 
 
