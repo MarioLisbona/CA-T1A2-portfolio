@@ -31,6 +31,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.25rem 0.5rem;
+    position: sticky;
+    top: 0;
+    background: hsla(0, 0%, 100%, .75);
+    border-bottom: 1px solid var(--mountain-light-gray);
 }
 
 #logo {
@@ -74,7 +78,7 @@ main {
 
 .profile-pic img {
     width: 40vw;
-    border-radius: 50%;;
+    border-radius: 50%;
 }
 
 article h1 {
@@ -92,7 +96,7 @@ article {
 article div {
     display: flex;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
 }
 
 article h2 {
@@ -123,6 +127,12 @@ article input {
 .social-links {
     border-top: 2px solid var(--mountain-dark-gray);
     flex: 100%;
+}
+
+.social-links div div {
+    display: flex;
+    justify-content: flex-star;
+    /* background: red; */
 }
 
 .social-links p {
