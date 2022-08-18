@@ -3,8 +3,8 @@
     --logo-orange: hsl(0,100%,67%);
     --cloud-white: hsl(225,2%,90%);
     --mountain-light-gray: hsl(40,2%,47%);
-    --mountain-medium-gray: hsl(40,2%,37%);
-    --mountain-dark-gray: hsl(40,2%,27%);
+    --mountain-medium-gray: hsl(45, 2%, 37%);
+    --mountain-dark-gray: hsl(40, 2%, 27%);
 }
 /* =================/ROOT========================*/
 
@@ -59,14 +59,14 @@ main {
     color: var(--mountain-dark-gray);
 }
 
-.mario-pic {
+.profile-pic {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 2;
 }
 
-.mario-pic img {
+.profile-pic img {
     width: 40vw;
     border-radius: 50%;;
 }
@@ -105,7 +105,28 @@ article input {
 .btn-subscribe {
     background: var(--mountain-light-gray);
     color: var(--cloud-white);
-    margin: 0 0 1rem 0;
+    margin: 0 0 3rem 0;
+}
+
+.social-links {
+    border-top: 2px solid var(--mountain-dark-gray);
+    flex: 100%;
+}
+
+.social-links p {
+    margin: .5rem 0;
+}
+
+footer {
+    margin: 0 0 1.25rem 1.25rem;
+    font-size: .75rem;
+}
+
+
+
+footer a {
+    color: var(--mountain-dark-gray);
+    text-decoration: none;
 }
 
 
