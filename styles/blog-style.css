@@ -15,3 +15,12 @@ commenting out untill i start about.html */
     border-bottom: 2px dotted var(--mountain-dark-gray);
     cursor:initial;
 }
+
+.info div h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.info div p {
+    text-align: justify;
+}
