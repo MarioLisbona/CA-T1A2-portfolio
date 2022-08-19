@@ -1,3 +1,8 @@
+#hero-container {
+    background: url(../images/darrin-henein-sREvt-W52Tc-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
+    background-size: cover;
+}
+
 /* used for about.html current page link styling
 commenting out untill i start about.html */
 .current-page-link {
