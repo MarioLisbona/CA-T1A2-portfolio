@@ -24,3 +24,24 @@ commenting out untill i start about.html */
 .info div p {
     text-align:justify
 }
+
+.project {
+    display: flex;
+    margin-bottom: 1rem;
+    border: 1px solid var(--mountain-medium-gray);
+}
+
+
+.project .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.project .info-container p {
+    font-size: .75rem;
+    text-align: left;
+}
