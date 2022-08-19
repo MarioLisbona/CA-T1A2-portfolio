@@ -11,6 +11,10 @@ commenting out untill i start about.html */
     cursor:initial;
 }
 
+.info div p {
+    text-align:justify
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
@@ -37,5 +41,4 @@ commenting out untill i start about.html */
 
 .contact-container a:hover {
     color: var(--logo-orange);
-
 }
