@@ -118,6 +118,7 @@ article .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* this min-width allows artcile to stay a column before wrapping at around 80px. Other wise it would happen at around 350px */
     min-width: 50vw;
 }
 
