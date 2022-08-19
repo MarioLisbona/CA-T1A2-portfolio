@@ -55,18 +55,19 @@ nav a:hover {
     color: var(--logo-orange);
 }
 
+
+/* used for about.html current page link styling
+commenting out untill i start about.html
 .current-page-link {
     border-bottom: 2px dotted var(--mountain-dark-gray);
     color: var(--logo-orange);
 }
 
-/* disabling underline for active page link */
+
 .current-page-link:hover {
-    /* border-bottom: inherit; */
-    /* color: var(--mountain-medium-gray); */
     border-bottom: 2px dotted var(--mountain-dark-gray);
     cursor:initial;
-}
+} */
 
 #hero-container {
     display: flex;
@@ -94,6 +95,7 @@ main {
 .profile-pic img {
     width: 40vw;
     border-radius: 50%;
+    min-width: 45vw;
 }
 
 article h1 {
@@ -106,12 +108,14 @@ article p {
 }
 article {
     margin: auto;
+    flex: 1;
 }
 
-article div {
+article .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 50vw;
 }
 
 article h2 {
