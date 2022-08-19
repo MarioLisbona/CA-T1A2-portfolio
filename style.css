@@ -96,7 +96,9 @@ main {
 .profile-pic img {
     width: 40vw;
     border-radius: 50%;
-
+    /* need to use px here to avoid image being to large at desktop sizes*/
+    min-width: 180px;
+    max-width: 350px;
 }
 
 article h1 {
