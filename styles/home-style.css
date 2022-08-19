@@ -55,24 +55,10 @@ nav a:hover {
     color: var(--logo-orange);
 }
 
-
-/* used for about.html current page link styling
-commenting out untill i start about.html
-.current-page-link {
-    border-bottom: 2px dotted var(--mountain-dark-gray);
-    color: var(--logo-orange);
-}
-
-
-.current-page-link:hover {
-    border-bottom: 2px dotted var(--mountain-dark-gray);
-    cursor:initial;
-} */
-
 #hero-container {
     display: flex;
     flex-direction: column;
-    background: url(./images/paul-pastourmatzis-r0J9sGBWFOc-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
+    background: url(../images/paul-pastourmatzis-r0J9sGBWFOc-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
     background-size: cover;
     height: 50vw;
     max-height: 300px;
@@ -189,24 +175,17 @@ footer a:hover {
     color: var(--logo-orange)
 }
 
+/* =========================ADDING ABOUT STYLES HERE=========================
 
-
-
-
-
-
-
-
-
-
-
-
-/* ===========Coder Academy footer=================*/
-/* .attribution {
-    font-size: 11px;
-    text-align: center;
+/* used for about.html current page link styling
+commenting out untill i start about.html */
+/* .current-page-link {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
 }
-.attribution a { 
-    color: hsl(194,53%,52%); 
- } */
-/* ===========Coder Academy footer=================*/
+
+
+.current-page-link:hover {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    cursor:initial;
+} */

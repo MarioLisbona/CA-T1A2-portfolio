@@ -1,0 +1,12 @@
+/* used for about.html current page link styling
+commenting out untill i start about.html */
+.current-page-link {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+
+.current-page-link:hover {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    cursor:initial;
+}
