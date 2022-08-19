@@ -22,6 +22,10 @@ commenting out untill i start about.html */
     justify-content: center;
 }
 
+.contact-container h3 {
+    margin: 0 0 1rem .5rem;
+}
+
 .phone-container,
 .email-container,
 .resume-container {
