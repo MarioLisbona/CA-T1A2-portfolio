@@ -10,3 +10,32 @@ commenting out untill i start about.html */
     border-bottom: 2px dotted var(--mountain-dark-gray);
     cursor:initial;
 }
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.phone-container,
+.email-container,
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container p {
+    margin: 0 0 0 1rem;
+}
+
+.contact-container a {
+    color: var(--mountain-dark-gray);
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    color: var(--logo-orange);
+
+}
