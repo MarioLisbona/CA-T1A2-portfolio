@@ -25,10 +25,27 @@ commenting out untill i start about.html */
     text-align:justify
 }
 
+.projects-container a {
+    color: var(--mountain-medium-gray);
+    text-decoration: none;
+}
+
+.projects-container a h3:hover {
+    color: var(--logo-orange);
+}
+
 .project {
     display: flex;
     margin-bottom: 1rem;
-    border: 1px solid var(--mountain-medium-gray);
+    border: 2px solid var(--mountain-light-gray);
+    border-radius: .5rem;
+
+}
+
+.project,
+.project img {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
 }
 
 
