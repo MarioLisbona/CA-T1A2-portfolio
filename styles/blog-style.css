@@ -1,0 +1,17 @@
+#hero-container {
+    background: url(../images/joel-vodell-_wwJdDj7D6I-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
+    background-size: cover;
+}
+
+/* used for about.html current page link styling
+commenting out untill i start about.html */
+.current-page-link {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+
+.current-page-link:hover {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    cursor:initial;
+}
