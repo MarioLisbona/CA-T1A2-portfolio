@@ -122,6 +122,20 @@ article .info {
     min-width: 50vw;
 }
 
+.info div:first-of-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.info div h1,
+.info div h2 {
+    text-align: center;
+}
+
+.info div input {
+    align-self: center;
+}
+
 article h2 {
     margin: 0 0 1rem 0;
 }
@@ -139,7 +153,7 @@ article input {
     background: var(--mountain-light-gray);
     border: 1px solid var(--mountain-dark-gray);
     color: var(--cloud-white);
-    margin: 0 0 3rem 0;
+    margin: 0 0 1.25rem 0;
 }
 
 .btn-subscribe:hover {
@@ -150,12 +164,11 @@ article input {
 .social-links {
     border-top: 2px solid var(--mountain-dark-gray);
     flex: 100%;
+    margin-top: 1.25rem;
 }
 
 .social-links div div {
     display: flex;
-    justify-content: flex-star;
-    /* background: red; */
 }
 
 .social-links p {
