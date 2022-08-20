@@ -28,7 +28,7 @@ article h3 {
 .blog-preview-card {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem;
+    margin: 1rem 0;
     background: var(--mountain-light-gray-transparent);
     border: 2px solid var(--mountain-light-gray);
     padding: 1rem;
