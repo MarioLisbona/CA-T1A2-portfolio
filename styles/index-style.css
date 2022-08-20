@@ -94,9 +94,10 @@ article h3 {
 }
 
 article p {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 1rem;
 }
+
 article {
     margin: auto;
     flex: 1;
