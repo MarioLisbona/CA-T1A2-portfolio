@@ -48,13 +48,14 @@ commenting out untill i start about.html */
     cursor:initial;
 }
 
-article h1,
+/* repeated code. have added this to  */
+/* article h1,
 article h3 {
     display: flex;
     justify-content: center;
     margin: 1rem;
     text-align: center;
-}
+} */
 
 .blog-preview-card {
     display: flex;

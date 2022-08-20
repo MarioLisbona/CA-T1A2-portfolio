@@ -16,10 +16,10 @@ commenting out untill i start about.html */
     cursor:initial;
 }
 
-article h1,
+/* article h1,
 article h3 {
     text-align: center;
-}
+} */
 
 article P {
     margin: 1rem 0;
