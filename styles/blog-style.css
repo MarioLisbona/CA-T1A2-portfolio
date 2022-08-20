@@ -2,7 +2,8 @@
     background: url(../images/joel-vodell-_wwJdDj7D6I-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
     background-size: cover;
 }
-
+/* ============================================================ */
+/* This should be able to go into home-style.css as its used on every page */
 /* used for about.html current page link styling
 commenting out untill i start about.html */
 .current-page-link {
@@ -15,7 +16,7 @@ commenting out untill i start about.html */
     border-bottom: 2px dotted var(--mountain-dark-gray);
     cursor:initial;
 }
-
+/* =============================================================== */
 article h1,
 article h3 {
     display: flex;
@@ -49,7 +50,6 @@ article h3 {
     /* max-width: 100vw; */
     margin-bottom: .5rem;
     border-radius: 5px;
-
 }
 
 .title {
