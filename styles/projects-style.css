@@ -26,12 +26,17 @@ article P {
     text-align: justify;
 }
 
+article a,
+.project-preview-card a {
+    color: var(--mountain-dark-gray);  
+}
+
 .project-preview-card {
     display: flex;
     flex-wrap: wrap;
     margin: 1rem 0.5rem;
     /* background: var(--mountain-light-gray-transparent); */
-    border: 1px solid var(--mountain-light-gray);
+    border: 2px solid var(--mountain-light-gray);
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 var(--mountain-light-gray);
@@ -68,11 +73,12 @@ article P {
 }
 
 .project-preview-card a {
-    text-decoration: none;
-    color: var(--mountain-dark-gray);
+    /* color: var(--mountain-dark-gray); */
+    margin: 1rem 0 0 1rem;
 }
 
-.project-preview-card a:hover {
+.project-preview-card a:hover,
+article a:hover {
     color: var(--logo-orange);
     cursor: pointer;
 }
