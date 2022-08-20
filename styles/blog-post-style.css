@@ -1,0 +1,52 @@
+#hero-container {
+    background: url(../images/joel-vodell-_wwJdDj7D6I-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
+    background-size: cover;
+}
+/* ============================================================ */
+/* This should be able to go into home-style.css as its used on every page */
+/* used for about.html current page link styling
+commenting out untill i start about.html */
+.current-page-link {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+
+.current-page-link:hover {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    cursor:initial;
+}
+/* =============================================================== */
+
+.blog-nav {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid var(--mountain-medium-gray);
+    padding: 0.5rem;
+}
+
+.blog-nav a {
+    font-size: .8rem;
+    color: var(--mountain-medium-gray);
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.blog-nav a:hover {
+    border-bottom: 1px solid var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+.blog-current-page-link {
+    border-bottom: 1px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+
+.blog-current-page-link:hover {
+    border-bottom: 1px dotted var(--mountain-dark-gray);
+    cursor:initial;
+}
