@@ -3,6 +3,7 @@
     --logo-orange: hsl(0,100%,67%);
     --cloud-white: hsl(225,2%,90%);
     --mountain-light-gray: hsl(40,2%,47%);
+    --mountain-light-gray-transparent: hsla(48, 2%, 47%, 0.2);
     --mountain-medium-gray: hsl(45, 2%, 37%);
     --mountain-dark-gray: hsl(40, 2%, 27%);
 }
@@ -41,6 +42,10 @@ header {
 #logo {
     width: 13vw;
     max-width: 100px;
+}
+
+nav {
+    z-index: 5;
 }
 
 nav a {
