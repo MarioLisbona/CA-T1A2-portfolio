@@ -17,6 +17,37 @@ commenting out untill i start about.html */
     cursor:initial;
 }
 /* =============================================================== */
+.blog-nav {
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid var(--mountain-medium-gray);
+    padding: 0.5rem;
+}
+
+.blog-nav a {
+    font-size: .8rem;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+.blog-nav a:hover {
+    border-bottom: 1px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+.blog-current-page-link {
+    border-bottom: 1px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+
+.blog-current-page-link:hover {
+    border-bottom: 1px dotted var(--mountain-dark-gray);
+    cursor:initial;
+}
+
 article h1,
 article h3 {
     display: flex;
