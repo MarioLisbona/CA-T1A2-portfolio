@@ -14,7 +14,7 @@ commenting out untill i start about.html */
 
 .current-page-link:hover {
     border-bottom: 2px dotted var(--mountain-dark-gray);
-    cursor:initial;
+    /* cursor:initial; */
 }
 /* =============================================================== */
 .blog-nav {

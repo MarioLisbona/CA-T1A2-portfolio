@@ -29,7 +29,7 @@ article P {
 .project-preview-card {
     display: flex;
     flex-wrap: wrap;
-    margin: 1rem 0;
+    margin: 1rem 0.5rem;
     background: var(--mountain-light-gray-transparent);
     border: 2px solid var(--mountain-light-gray);
     padding: 1rem;
@@ -62,6 +62,16 @@ article P {
 
 .project-preview-card  p {
     text-align: justify;
+}
+
+.project-preview-card a {
+    text-decoration: none;
+    color: var(--mountain-dark-gray);
+}
+
+.project-preview-card a:hover {
+    color: var(--logo-orange);
+    cursor: pointer;
 }
 
 @media screen and (min-width: 500px)and (max-width: 899px){
