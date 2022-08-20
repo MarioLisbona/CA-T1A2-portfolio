@@ -34,7 +34,8 @@ article P {
     border: 2px solid var(--mountain-light-gray);
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px 0 var(--mountain-light-gray)
+    box-shadow: 1px 1px 5px 0 var(--mountain-light-gray);
+    max-width: 400px;
 }
 
 /* .blog-preview-card:hover {
