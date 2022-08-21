@@ -34,27 +34,6 @@
     cursor:initial;
 }
 
-.blog-preview-card {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1rem 0.5rem;
-    border: 2px solid var(--mountain-light-gray);
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 0 var(--mountain-light-gray);
-    max-width: 400px;
-}
-
-.blog-preview-card  img {
-    flex: 100%;
-    height: 30vw;
-    max-height: 150px;
-    /* max-width: 100vw; */
-    margin-bottom: .5rem;
-    border-radius: 5px;
-    border: 2px solid var(--mountain-light-gray);
-}
-
 .title {
     display: flex;
     justify-content: space-between;
