@@ -12,20 +12,12 @@ article a,
     display: flex;
     flex-wrap: wrap;
     margin: 1rem 0.5rem;
-    /* background: var(--mountain-light-gray-transparent); */
     border: 2px solid var(--mountain-light-gray);
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 var(--mountain-light-gray);
     max-width: 400px;
 }
-
-/* .blog-preview-card:hover {
-    border: 2px solid var(--logo-orange);
-    transform: scale(1.01);
-    cursor: pointer;
-} */
-
 
 .project-preview-card  img {
     flex: 100%;
@@ -35,7 +27,6 @@ article a,
     margin-bottom: .5rem;
     border-radius: 5px;
     border: 2px solid var(--mountain-light-gray);
-
 }
 
 .project-preview-card h4 {

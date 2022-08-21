@@ -45,14 +45,6 @@
     box-shadow: 1px 1px 5px 0 var(--mountain-light-gray)
 }
 
-/* Cant get this hover to work as it will be forward of the sticky menu. Even if i apply a lower z-index than applied to the menu*/
-
-/* .blog-preview-card:hover {
-    border: 2px solid var(--logo-orange);
-    transform: scale(1.01);
-    cursor: pointer;
-} */
-
 
 .blog-preview-card  img {
     flex: 100%;
