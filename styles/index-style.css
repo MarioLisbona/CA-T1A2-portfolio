@@ -93,21 +93,21 @@ article h2 {
 
 .my-info {
     display: flex;
-    width: 100%;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    /* max-height: 25vw; */
-    /* height: 20%; */
 }
 
 .my-info h2 {
     flex: 1;
 }
 
+/* This is quite hacky but works to center the p */
 .my-info p {
-    text-align: justify;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 70%;
 }
 
 
