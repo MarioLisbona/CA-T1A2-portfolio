@@ -164,6 +164,10 @@ article h2 {
 
 article input {
     margin: 0 0 1rem 0;
+    padding: .25rem .5rem;
+    border: 1px solid var(--mountain-dark-gray);
+    border-radius: .25rem;  
+    text-align: center;
 }
 
 .btn {
@@ -176,6 +180,7 @@ article input {
     border: 1px solid var(--mountain-dark-gray);
     color: var(--cloud-white);
     margin: 0 0 1.25rem 0;
+    text-align: center;
 }
 
 .btn-subscribe:hover {
