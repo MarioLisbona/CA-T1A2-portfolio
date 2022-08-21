@@ -67,21 +67,19 @@ main {
     color: var(--mountain-dark-gray);
 }
 
-/* .profile-pic {
+article {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-    min-width: 45vw;
-} */
-
-.profile-pic img {
-    width: 40vw;
-    border-radius: 50%;
-    /* need to use px here to avoid image being to large at desktop sizes */
-    min-width: 180px;
-    max-width: 350px;
+    flex-wrap: wrap;
 }
+
+.profile-pic {
+    flex: 1;
+}
+
+.my-info {
+    flex: 1;
+}
+
 
 article h1 {
     font-size: 2rem;
@@ -103,10 +101,6 @@ article p {
     margin: auto;
     flex: 1;
 } */
-
-article {
-    flex: 100%;
-}
 
 /* Will eventually refactor index and about to remove the .info div */
 /* article .info {
@@ -185,10 +179,6 @@ footer a:hover {
     color: var(--logo-orange)
 }
 
-/* =========================ADDING ABOUT STYLES HERE=========================
-
-/* used for about.html current page link styling
-commenting out untill i start about.html */
 .current-page-link {
     border-bottom: 2px dotted var(--mountain-dark-gray);
     color: var(--logo-orange);
@@ -218,4 +208,14 @@ commenting out untill i start about.html */
     margin-bottom: .5rem;
     border-radius: 5px;
     border: 2px solid var(--mountain-light-gray);
+}
+
+@media screen and (min-width: 500px) {
+    .profile-pic {
+        flex: 50%;
+    }
+
+    .my-info {
+        flex: 50%;
+    }
 }
