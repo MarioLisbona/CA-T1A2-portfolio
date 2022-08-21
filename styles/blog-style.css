@@ -2,21 +2,7 @@
     background: url(../images/joel-vodell-_wwJdDj7D6I-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
     background-size: cover;
 }
-/* ============================================================ */
-/* This should be able to go into home-style.css as its used on every page */
-/* used for about.html current page link styling
-commenting out untill i start about.html */
-.current-page-link {
-    border-bottom: 2px dotted var(--mountain-dark-gray);
-    color: var(--logo-orange);
-}
 
-
-.current-page-link:hover {
-    border-bottom: 2px dotted var(--mountain-dark-gray);
-    cursor:initial;
-}
-/* =============================================================== */
 .blog-nav {
     flex: 100%;
     display: flex;
@@ -112,9 +98,10 @@ article h3 {
         min-height: 50vw;
     }
 
-    article {
+    /* not needed */
+    /* article {
         flex: 100%;
-    }
+    } */
 }
 
 @media screen and (min-width: 900px) {
@@ -123,7 +110,8 @@ article h3 {
     min-height: 50vh;
 }
 
-article {
+    /* not needed */
+/* article {
     flex: 100%;
-}
+} */
 }

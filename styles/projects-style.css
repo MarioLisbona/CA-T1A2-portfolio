@@ -3,34 +3,6 @@
     background-size: cover;
 }
 
-/* used for about.html current page link styling
-commenting out untill i start about.html */
-.current-page-link {
-    border-bottom: 2px dotted var(--mountain-dark-gray);
-    color: var(--logo-orange);
-}
-
-
-.current-page-link:hover {
-    border-bottom: 2px dotted var(--mountain-dark-gray);
-    cursor:initial;
-}
-
-
-/* repeated code. have added this to index-style.css */
-/* article h1,
-article h3 {
-    text-align: center;
-} */
-
-
-/* repeated code. have added this to index-style.css */
-
-/* article P {
-    margin: 1rem;
-    text-align: justify;
-} */
-
 article a,
 .project-preview-card a {
     color: var(--mountain-dark-gray);  
@@ -91,21 +63,20 @@ article a:hover {
 @media screen and (min-width: 500px)and (max-width: 899px){
     .project-preview-card {
         flex: 25%;
-        min-height: 50vw;
-    }
-
-    article {
-        flex: 100%;
+        /* not needed */
+        /* min-height: 50vw; */
     }
 }
 
 @media screen and (min-width: 900px) {
 .project-preview-card {
     flex: calc(100% / 4);
-    min-height: 50vh;
+    /* not needed */
+    /* min-height: 50vh; */  
 }
 
-article {
+/* not needed */
+/* article {
     flex: 100%;
-}
+} */
 }

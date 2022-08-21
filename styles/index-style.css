@@ -98,18 +98,25 @@ article p {
     margin-bottom: 1rem;
 }
 
-article {
+/* margin doesnt seem to be needed. have used flex 100% across all pages instead of flex 1 here. */
+/* article {
     margin: auto;
     flex: 1;
+} */
+
+article {
+    flex: 100%;
 }
 
-article .info {
+/* Will eventually refactor index and about to remove the .info div */
+/* article .info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* this min-width allows artcile to stay a column before wrapping at around 80px. Other wise it would happen at around 350px */
+    this min-width allows artcile to stay a column before wrapping at around 80px. Other wise it would happen at around 350px
     min-width: 50vw;
 }
+
 
 .info div:first-of-type {
     display: flex;
@@ -123,7 +130,7 @@ article .info {
 
 .info div input {
     align-self: center;
-}
+} */
 
 article h2 {
     margin: 0 0 1rem 0;
@@ -182,7 +189,7 @@ footer a:hover {
 
 /* used for about.html current page link styling
 commenting out untill i start about.html */
-/* .current-page-link {
+.current-page-link {
     border-bottom: 2px dotted var(--mountain-dark-gray);
     color: var(--logo-orange);
 }
@@ -191,4 +198,4 @@ commenting out untill i start about.html */
 .current-page-link:hover {
     border-bottom: 2px dotted var(--mountain-dark-gray);
     cursor:initial;
-} */
+}
