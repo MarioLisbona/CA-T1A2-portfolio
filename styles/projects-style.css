@@ -35,8 +35,8 @@ article a:hover {
     }
 }
 
-@media screen and (min-width: 900px) {
-.preview-card {
-    flex: calc(100% / 4);
-}
+@media screen and (min-width: 900px) and (max-width: 1099px) {
+    .preview-card {
+        flex: calc(100% / 4);
+    }
 }

@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: 1px solid var(--mountain-medium-gray);
+    border: 2px solid var(--mountain-medium-gray);
     padding: 0.5rem;
 }
 
@@ -43,6 +43,11 @@
 
 .blog-preview-card  p {
     text-align: justify;
+}
+
+.blog-photos img {
+    min-width: 100px;
+    max-width: 25vw;
 }
 
 @media screen and (min-width: 500px)and (max-width: 899px){
