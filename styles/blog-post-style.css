@@ -69,7 +69,10 @@ article p {
 }
 
 .blog-photos {
-    margin: 0 5rem;
+    margin: 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .blog-photos img {
