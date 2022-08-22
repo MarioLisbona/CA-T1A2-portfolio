@@ -19,16 +19,6 @@
     text-align: justify;
 }
 
-/* .preview-card a {
-    margin: 1rem 0 0 1rem;
-}
-
-.preview-card a:hover,
-article a:hover {
-    color: var(--logo-orange);
-    cursor: pointer;
-} */
-
 @media screen and (max-width: 600px) {
     .preview-card {
         margin: 1rem auto;
