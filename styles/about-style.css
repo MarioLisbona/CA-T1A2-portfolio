@@ -40,6 +40,11 @@
     color: var(--logo-orange);
 }
 
+/* .resume-container a,
+.resume-container p {
+    font-family: 'Roboto Slab', serif;
+} */
+
 @media screen and (min-width: 900px) {
     .about-info {
         flex: 1;
