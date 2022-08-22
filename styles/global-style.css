@@ -217,6 +217,11 @@ footer a:hover {
     min-height: 600px;
 }
 
+.preview-card:hover {
+    box-shadow: 0 0 13px 0 var(--mountain-dark-gray);
+    cursor: pointer;
+}
+
 .preview-card  img {
     flex: 100%;
     height: 30vw;
