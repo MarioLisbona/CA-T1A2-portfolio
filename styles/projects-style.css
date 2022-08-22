@@ -46,3 +46,11 @@ article a:hover {
         flex: calc(100% / 4);
     }
 }
+
+@media screen and (min-width: 1100px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        margin: 1.25rem 13rem;
+    }
+}
