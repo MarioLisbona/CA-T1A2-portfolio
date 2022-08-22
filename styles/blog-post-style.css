@@ -97,15 +97,21 @@
     }
 }
 
+@media screen and (min-width: 700px) {
+    article p {
+        margin: 0 5rem;
+    }
+}
+
 
 
 @media screen and (min-width: 900px) {
-.blog-preview-card {
-    flex: calc(100% / 4);
-    min-height: 50vh;
-}
+    .blog-preview-card {
+        flex: calc(100% / 4);
+        min-height: 50vh;
+    }
 
-article {
-    flex: 100%;
-}
-}
+    article {
+        flex: 100%;
+    }
+ }
