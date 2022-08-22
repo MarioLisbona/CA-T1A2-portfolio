@@ -234,7 +234,7 @@ footer a:hover {
     background: url(../images/icons8-up-squared-50.png);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 849px) {
     .my-info {
         flex: 1;
     }
@@ -243,3 +243,24 @@ footer a:hover {
         justify-content: center;
     }
 }
+
+@media screen and (min-width: 850px) {
+    .my-info {
+        flex: 1;
+        max-height: 400px;
+    justify-content: center;
+
+    }
+
+    article h1,
+    article h2 {
+        max-height: 50px;
+    }
+
+    article h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
