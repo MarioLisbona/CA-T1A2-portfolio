@@ -84,9 +84,14 @@ article p {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .blog-nav {
         justify-content: center;
+    }
+
+    .blog-photos img {
+        min-width: 20px;
+        max-width: 100px;
     }
 }
 
