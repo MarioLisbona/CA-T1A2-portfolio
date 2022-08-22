@@ -5,7 +5,7 @@
     --mountain-light-gray: hsl(40,2%,47%);
     --mountain-light-gray-transparent: hsla(48, 2%, 47%, 0.2);
     --mountain-medium-gray: hsl(45, 2%, 37%);
-    --mountain-dark-gray: hsl(40, 2%, 27%);
+    --mountain-dark-gray: #464543;
 }
 /* =================/ROOT========================*/
 
@@ -245,6 +245,17 @@ footer a:hover {
     margin-bottom: .5rem;
     border-radius: 5px;
     border: 2px solid var(--mountain-light-gray);
+}
+
+#btn-scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    /* background: hsla(40, 2%, 47%, 0.5); */
+    background: url(../images/icons8-up-squared-50.png);
 }
 
 @media screen and (min-width: 600px) {
