@@ -58,6 +58,10 @@ article {
     color: var(--logo-orange);
 }
 
+.preview-card h4:last-of-type {
+    text-align: right;
+}
+
 @media screen and (max-width: 600px) {
     .preview-card {
         margin: 1rem auto;
