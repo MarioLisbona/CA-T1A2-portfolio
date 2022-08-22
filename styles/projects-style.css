@@ -3,10 +3,10 @@
     background-size: cover;
 }
 
-article a,
+/* article a,
 .preview-card a {
     color: var(--mountain-dark-gray);  
-}
+} */
 
 .preview-card h4 {
     width: 100%;
@@ -19,7 +19,7 @@ article a,
     text-align: justify;
 }
 
-.preview-card a {
+/* .preview-card a {
     margin: 1rem 0 0 1rem;
 }
 
@@ -27,7 +27,7 @@ article a,
 article a:hover {
     color: var(--logo-orange);
     cursor: pointer;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .preview-card {

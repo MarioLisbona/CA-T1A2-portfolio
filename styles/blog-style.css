@@ -48,7 +48,7 @@ article {
     text-align: justify;
 }
 
-.preview-card a {
+/* .preview-card a {
     text-decoration: none;
     color: var(--mountain-medium-gray);
 }
@@ -56,7 +56,7 @@ article {
 .preview-card a:hover {
     cursor: pointer;
     color: var(--logo-orange);
-}
+} */
 
 .preview-card h4:last-of-type {
     text-align: right;

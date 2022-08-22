@@ -16,11 +16,13 @@
     margin: 0;
     padding: 0;
     /* outline: 1px solid black; */
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+
 }
 
 a {
-    font-family: 'Roboto Slab', serif;
+    color: var(--logo-orange);
 }
 /* =================/RESETS========================*/
 
@@ -183,14 +185,14 @@ footer {
     font-size: .75rem;
 }
 
-footer a {
+/* footer a {
     color: var(--mountain-dark-gray);
     text-decoration: none;
 }
 
 footer a:hover {
     color: var(--logo-orange)
-}
+} */
 
 .current-page-link {
     border-bottom: 2px dotted var(--mountain-dark-gray);
@@ -212,9 +214,7 @@ footer a:hover {
     border-radius: 5px;
     box-shadow: 0 0 10px 0 var(--mountain-light-gray);
     max-width: 300px;
-    min-height: 420px;
-    /* This max height will work on the individual preview card to expand based on content. The only problem is that with more content that particular card will be bigger than the other.  */
-    max-height: auto;
+    min-height: 600px;
 }
 
 .preview-card  img {
