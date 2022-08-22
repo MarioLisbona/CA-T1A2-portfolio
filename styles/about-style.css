@@ -4,6 +4,11 @@
     background-size: cover;
 }
 
+.about-info p {
+    text-align: justify;
+    width: 100%;
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
@@ -34,4 +39,27 @@
 
 .contact-container a:hover {
     color: var(--logo-orange);
+}
+
+@media screen and (min-width: 900px) {
+    .about-info {
+        flex: 1;
+    }
+
+    .about-info p {
+        text-align: left;
+        width: 90%;
+    }
+
+    .about-info h1,
+    .about-info h2 {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contact-container {
+        justify-content: flex-end;
+        margin: 1rem;
+    }
 }
