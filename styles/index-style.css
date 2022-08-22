@@ -212,6 +212,9 @@ footer a:hover {
     border-radius: 5px;
     box-shadow: 0 0 10px 0 var(--mountain-light-gray);
     max-width: 300px;
+    min-height: 420px;
+    /* This max height will work on the individual preview card to expand based on content. The only problem is that with more content that particular card will be bigger than the other.  */
+    max-height: auto;
 }
 
 .preview-card  img {
