@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
 }
 
 .contact-container h3 {
@@ -60,6 +59,8 @@
 
     .contact-container {
         justify-content: flex-end;
-        margin: 1rem;
+        max-height: 200px;
+        margin: 1rem 2rem 0 0;
+        order: -1;
     }
 }
