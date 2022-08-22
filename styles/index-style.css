@@ -53,7 +53,7 @@ nav a:hover {
     color: var(--logo-orange);
 }
 
-#hero-container {
+.hero-container {
     display: flex;
     flex-direction: column;
     background: url(../images/paul-pastourmatzis-r0J9sGBWFOc-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
