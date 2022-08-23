@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
-  <link rel="stylesheet" href="./styles/global-style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
-  <script src="./script.js" defer></script>
-  <title>Mario Lisbona | Full Stack Web Developer (in training)</title>
-</head>
-<body>
-  <!-- start of header area -->
-  <header>
-    <a href="./index.html"><img src="./images/ml-logo.png" alt="" id="logo"></a>
-    <nav>
-      <!-- navigation links -->
-      <a href="./about.html">About</a>
-      <a href="./projects.html">Projects</a>
-      <a href="./blog.html">Blog</a>
-    </nav>
-  </header>
-  <!-- Start of full width Hero image -->
-  <section class="hero-container">
-    <img src="" alt="">
-  </section>
-  <!-- start of main content -->
-  <main>
-    <article>
-      <div class="profile-pic">
-        <img src="./images/mario-pic.jpg" alt="Mario Pic">
-      </div>
-      <div class="my-info">
-        <h1>Mario Lisbona</h1>
-        <p>Aspiring full-stack web-developer and current student at Coder Academy, Australia.</p>
-        <h2>Subscribe to my Blog</h2>
-        <div>
-          <input type="email" name="email" placeholder="Email address" id="email">
-          <div class="btn btn-subscribe">Subscribe</div>
-        </div>
-      </div>
-    </article>
-    <div id="btn-scrollup"></div>
-    <section class="social-links">
-      <div>
-        <p>Connet with me on Social Media</p>
-        <div>
-          <a href="https://www.instagram.com/muzzza79/" target="_blank"><img src="./images/icons8-instagram.svg" alt="Instagram"></a>
-          <a href="https://github.com/MarioLisbona" target="_blank"><img src="./images/icons8-github.svg" alt="Github"></a>
-          <a href="https://www.linkedin.com/in/mario-lisbona-0496b8206/" target="_blank"><img src="./images/icons8-linkedin-circled.svg" alt="Linkedin"></a>
-          <a href="https://twitter.com/MarioLisbona" target="_blank"><img src="./images/icons8-twitter-30.svg" alt="Twitter"></a>
-        </div>
-      </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <!-- Below is a link to put my logo icon in the tab bar -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+    <!-- This links the html to the global style sheet -->
+    <link rel="stylesheet" href="./styles/global-style.css">
+    <!-- Import link for the 2 fonts i have used on the site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Linking the javascript file. Defer loads the whole page before applying the JavaScript -->
+    <script src="./script.js" defer></script>
+    <!-- Title for the page -->
+    <title>Mario Lisbona | Full Stack Web Developer (in training)</title>
+  </head>
+  <body>
+    <!-- start of header area -->
+    <header>
+      <a href="./index.html"><img src="./images/ml-logo.png" alt="" id="logo"></a>
+      <nav>
+        <!-- navigation links -->
+        <a href="./about.html">About</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./blog.html">Blog</a>
+      </nav>
+    </header>
+    <!-- Start of full width Hero image -->
+    <section class="hero-container">
+      <img src="" alt="">
     </section>
-  </main>
-  <footer>
-    <p>&copy; 2022 Mario Lisbona | Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-  </footer>
-</body>
+    <!-- start of main content -->
+    <main>
+      <article>
+        <!-- A div contaier that will hold a profile pciture of me - allowing styling of that image seperate to the information below -->
+        <div class="profile-pic">
+          <img src="./images/mario-pic.jpg" alt="Mario Pic">
+        </div>
+        <!-- A div containing h1, h2 and p text. I have kept this in a seperate container to the email address and submit button so that the styling wont affect the button and input box-->
+        <div class="my-info">
+          <h1>Mario Lisbona</h1>
+          <p>Aspiring full-stack web-developer and current student at Coder Academy, Australia.</p>
+          <!-- Call to action - Asking visiters to sign up below to my blog -->
+          <h2>Subscribe to my Blog</h2>
+          <!-- A seperate div to contain submit div "button" and input box -->
+          <div>
+            <input type="email" name="email" placeholder="Email address" id="email">
+            <div class="btn btn-subscribe">Subscribe</div>
+          </div>
+        </div>
+      </article>
+      <!-- This is the container for the scroll up button -->
+      <!-- It will be hidden untill the user scrolls down 30px from the top of the page -->
+      <div id="btn-scrollup"></div>
+      <!-- This seciton contains all the links to visit my social media -->
+      <section class="social-links">
+        <!-- This div has 2 children. One child is simply the heading. Its sibling is another div which containes the links and social media icons. This allowed me to flex and align the icons seperatly to the heading of the container. Each link opens in a new tab -->
+        <div>
+          <p>Connet with me on Social Media</p>
+          <div>
+            <a href="https://www.instagram.com/muzzza79/" target="_blank"><img src="./images/icons8-instagram.svg" alt="Instagram"></a>
+            <a href="https://github.com/MarioLisbona" target="_blank"><img src="./images/icons8-github.svg" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/mario-lisbona-0496b8206/" target="_blank"><img src="./images/icons8-linkedin-circled.svg" alt="Linkedin"></a>
+            <a href="https://twitter.com/MarioLisbona" target="_blank"><img src="./images/icons8-twitter-30.svg" alt="Twitter"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- The footer section contains a copyright messsage and a credit link to Icons8 where i downloaded the icons from -->
+    <footer>
+      <p>&copy; 2022 Mario Lisbona | Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    </footer>
+  </body>
 </html>
