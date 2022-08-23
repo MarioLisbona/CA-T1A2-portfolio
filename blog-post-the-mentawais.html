@@ -43,12 +43,82 @@
         <h3>Surfing and going a little feral in the Indonesian Jungle</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut inventore exercitationem quaerat, maiores id a minima blanditiis ipsa molestiae eaque tempore quis, nihil eligendi saepe enim, nemo amet! Itaque nostrum sapiente laborum laboriosam, ullam repellendus odio aut aliquam, consectetur repellat doloremque necessitatibus corporis cum, at atque earum eum. Pariatur excepturi nemo porro odit qui vero, error omnis, iure blanditiis alias, quia eaque laudantium voluptatum quos quisquam natus. Odio molestiae veniam deleniti velit cumque omnis odit laudantium doloribus rerum. Obcaecati dolorem blanditiis vero totam dicta, sint aliquid ea. Perferendis distinctio amet sequi vero vitae, voluptatibus perspiciatis a vel corporis iusto temporibus culpa porro facere quis harum qui facilis quaerat mollitia magnam? Dignissimos minima saepe aliquam eveniet quod obcaecati? At aperiam impedit in beatae necessitatibus eaque eum praesentium voluptatum sunt aliquam nulla odit laudantium unde ullam, atque, eveniet fuga excepturi. Maiores eum quas praesentium eaque temporibus quasi veritatis cum reprehenderit magnam doloremque suscipit fugit laboriosam accusantium optio quo, nulla ea voluptas eos sint. Autem, sequi pariatur iusto alias saepe repellendus illum aliquam incidunt cum voluptatibus sed. Vitae saepe ut sequi porro nesciunt. Exercitationem sequi iure at magni, aperiam harum rerum quis maxime similique beatae sunt? Ut provident voluptate perferendis deserunt vitae, beatae velit enim excepturi, vel fugiat quia ratione illum nisi. Reiciendis saepe quaerat dicta reprehenderit est cum? Numquam veniam doloribus unde repellat, at voluptatem aut aliquam, illum cum delectus corporis porro temporibus nisi iure ea voluptas blanditiis quo consequuntur magnam. Excepturi eos magnam et quod illo cumque provident illum quisquam vel ab in repudiandae, sed nulla mollitia tempora fuga vero. Maxime sequi consequuntur nostrum, eos aspernatur iste obcaecati blanditiis eveniet. Modi facilis ducimus quaerat cupiditate commodi quasi laudantium tenetur fuga exercitationem facere, dolorum quam, temporibus iste? Reprehenderit voluptas, labore consequuntur minus repellat repudiandae ullam eligendi similique dolores quam at aperiam incidunt nesciunt natus atque quas culpa quidem fugit, tenetur iusto id dolor inventore. Praesentium quia aut, nobis soluta neque similique iste asperiores officiis est sint aspernatur delectus sunt tempore modi perferendis explicabo. Nemo, tempora, recusandae sapiente voluptatum vero iure perspiciatis nihil dolore similique quae praesentium alias impedit itaque vitae totam et. Aspernatur necessitatibus voluptas animi tenetur repellat quis sapiente esse cum, quia quos debitis! Magni, ullam, voluptate ut dignissimos molestiae nostrum saepe officia qui asperiores corrupti nemo esse deleniti deserunt modi. Totam tempora sed eos sequi inventore ab nostrum architecto esse, modi corporis odio minus provident non, accusamus porro alias?</p>
         <div class="blog-photos">
-          <a href="http://#" target="_blank"><img src="https://placekitten.com/200/200" alt=""></a>
-          <a href="http://#" target="_blank"></a><img src="https://placekitten.com/300/300" alt=""></a>
-          <a href="http://#" target="_blank"></a><img src="https://placekitten.com/400/400" alt=""></a>
-          <a href="http://#" target="_blank"></a><img src="https://placekitten.com/500/500" alt=""></a>
-          <a href="http://#" target="_blank"></a><img src="https://placekitten.com/600/600" alt=""></a>
-          <a href="http://#" target="_blank"></a><img src="https://placekitten.com/700/700" alt=""></a>
+          <img src="./images/ments-1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          <img src="./images/ments-2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+          <img src="./images/ments-3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+          <img src="./images/ments-4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+          <img src="./images/ments-5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+          <img src="./images/ments-6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+        </div>
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src="./images/ments-1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src="./images/ments-2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src="./images/ments-3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="./images/ments-4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src="./images/ments-5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 6</div>
+              <img src="./images/ments-6.jpg" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column blog-photos">
+              <img class="demo" src="./images/ments-1.jpg" onclick="currentSlide(1)" alt="Shot of me duck diving at H-bombs">
+            </div>
+
+            <div class="column blog-photos">
+              <img class="demo" src="./images/fires-2.JPG" onclick="currentSlide(2)" alt="All the boys chilling on the Kaimana II">
+            </div>
+
+            <div class="column blog-photos">
+              <img class="demo" src="./images/ments-3.jpg" onclick=currentSlide(3)" alt="Macaronis">
+            </div>
+
+            <div class="column blog-photos">
+              <img class="demo" src="./images/fires-4.JPG" onclick="currentSlide(4)" alt="HT's nugget">
+            </div>
+
+            <div class="column blog-photos">
+              <img class="demo" src="./images/fires-5.JPG" onclick="currentSlide(5)" alt="Enjoying the view on the Kaimana II">
+            </div>
+
+            <div class="column blog-photos">
+              <img class="demo" src="./images/fires-6.JPG" onclick="currentSlide(6)" alt="All the boys cruising round a picture perfect island">
+            </div>
+          </div>
         </div>
       </article>
       <div id="btn-scrollup"></div>
