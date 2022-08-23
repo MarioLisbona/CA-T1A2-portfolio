@@ -185,15 +185,6 @@ footer {
     font-size: .75rem;
 }
 
-/* footer a {
-    color: var(--mountain-dark-gray);
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: var(--logo-orange)
-} */
-
 .current-page-link {
     border-bottom: 2px dotted var(--mountain-dark-gray);
     color: var(--logo-orange);
@@ -205,6 +196,8 @@ footer a:hover {
     cursor:initial;
 }
 
+
+/* Having issues with the heigh of the preview container flexing. And blog previews that have less text have alot of empty space */
 .preview-card {
     display: flex;
     flex-wrap: wrap;
@@ -214,7 +207,7 @@ footer a:hover {
     border-radius: 5px;
     box-shadow: 0 0 10px 0 var(--mountain-light-gray);
     max-width: 300px;
-    min-height: 600px;
+    min-height: 520px;
 }
 
 .preview-card:hover {
