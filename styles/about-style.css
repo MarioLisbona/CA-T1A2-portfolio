@@ -1,5 +1,5 @@
 .hero-container {
-    background: url(../images/patrick-federi-wMhj9icaHhA-unsplash.jpg) var(--mountain-light-gray) no-repeat center;
+    background: url(../images/hero-about.jpg) var(--mountain-light-gray) no-repeat center;
     /* Need to include this here as it doesnt seem to inherti from index-style.css */
     background-size: cover;
 }

@@ -1,25 +1,31 @@
 /* have tried using the base styles for hero-image here but it wasnt working so need to put each hero image and styling into its own class */
 .hero-container.alaska{
-    background: url(../images/alaska-the-wrangles.JPG) var(--mountain-light-gray) no-repeat 25% 35%;
+    background: url(../images/hero-alaska.JPG) var(--mountain-light-gray) no-repeat 25% 35%;
     background-size: cover;
 }
 
 .hero-container.near-death {
-    background: url(../images/jo-anne-mcarthur-oitD52FFUu0-unsplash.jpg) var(--mountain-light-gray) no-repeat 25% 30%;
+    background: url(../images/hero-fires.jpg) var(--mountain-light-gray) no-repeat 25% 30%;
     background-size: cover;
 }
 
 .hero-container.coda {
-    background: url(../images/Coda.jpg) var(--mountain-light-gray) no-repeat 25% 42%;
+    background: url(../images/hero-coda.jpg) var(--mountain-light-gray) no-repeat 25% 42%;
     background-size: cover;
 }
+
 .hero-container.ments {
-    background: url(../images/hollow-trees.jpg) var(--mountain-light-gray) no-repeat center;
+    background: url(../images/hero-ments.jpg) var(--mountain-light-gray) no-repeat center;
     background-size: cover;
 }
+
 .hero-container.austria {
-    background: url(../images/austria-peaks.JPG) var(--mountain-light-gray) no-repeat 50% 20%;
+    background: url(../images/hero-austria.JPG) var(--mountain-light-gray) no-repeat 50% 20%;
     background-size: cover;
+}
+
+.current-page-link:hover {
+  cursor: pointer;
 }
 
 .blog-nav {
