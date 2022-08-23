@@ -1,7 +1,7 @@
 /* Variables for colors that i use throughout the whole site */
 /* =================ROOT========================*/
 :root {
-    --logo-orange: hsl(0,100%,67%);
+    --logo-orange: #ff5757;
     --cloud-white: hsl(225,2%,90%);
     --mountain-light-gray: hsl(40,2%,47%);
     --mountain-light-gray-transparent: hsla(48, 2%, 47%, 0.2);
@@ -170,6 +170,50 @@ article input {
     cursor: pointer;
 }
 
+#instagram-icon {
+    background: url(../images/icons8-instagram-30.png);
+    height: 30px;
+    width: 30px;
+}
+
+#instagram-icon:hover {
+    background: url(../images/icons8-instagram-30-orange.png);
+    cursor: pointer;
+}
+
+#github-icon {
+    background: url(../images/icons8-github-30.png);
+    height: 30px;
+    width: 30px;
+}
+
+#github-icon:hover {
+    background: url(../images/icons8-github-30-orange.png);
+    cursor: pointer;
+}
+
+#linkedin-icon {
+    background: url(../images/icons8-linkedin-circled-30.png);
+    height: 30px;
+    width: 30px;
+}
+
+#linkedin-icon:hover {
+    background: url(../images/icons8-linkedin-circled-30-orange.png);
+    cursor: pointer;
+}
+
+#twitter-icon {
+    background: url(../images/icons8-twitter-30.png);
+    height: 30px;
+    width: 30px;
+}
+
+#twitter-icon:hover {
+    background: url(../images/icons8-twitter-30-orange.png);
+    cursor: pointer;
+}
+
 .social-links {
     border-top: 2px solid var(--mountain-dark-gray);
     flex: 100%;
@@ -178,6 +222,7 @@ article input {
 
 .social-links div div {
     display: flex;
+    margin-right: .25rem;
 }
 
 .social-links p {
