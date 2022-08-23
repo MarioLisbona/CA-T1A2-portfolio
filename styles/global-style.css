@@ -1,3 +1,4 @@
+/* Variables for colors that i use throughout the whole site */
 /* =================ROOT========================*/
 :root {
     --logo-orange: hsl(0,100%,67%);
@@ -9,7 +10,8 @@
 }
 /* =================/ROOT========================*/
 
-
+/* Setting wildcard to borderbox, font and line height as well as 0 padding and margin for the entire site. */
+/* Also setting every anchor tag to the orange i sued in my logo */
 /* =================RESETS========================*/
 * {
     box-sizing: border-box;
@@ -26,6 +28,9 @@ a {
 }
 /* =================/RESETS========================*/
 
+/* Styling for the header which the nav bar is contained in. The logo and nav links are siblings so iv used space between to set them to the left and right sides fo the nav bar. Position is sticky and opacity is .75 so that the nav bar always stays at the top but you can slightly see the page scroll underneath it.*/
+
+/* I tried to have a transform: scale(1.01) on the preview boxe:hover but when the hover transitioned it would display on top of the nava bar. Setting the z-index for both these elements didnt solve the problem */
 header {
     display: flex;
     justify-content: space-between;
@@ -37,7 +42,7 @@ header {
     border-bottom: 1px solid var(--mountain-light-gray);
     max-height: 100px;
 }
-
+/* Setting the width and max-width so the logo is appropriatley sized at different screen sizes*/
 #logo {
     width: 13vw;
     max-width: 100px;
@@ -57,7 +62,7 @@ nav a:hover {
 .hero-container {
     display: flex;
     flex-direction: column;
-    background: url(../images/hero-landing.jpg) var(--mountain-light-gray) no-repeat center;
+    background: url(../images/hero-landing-min.jpg) var(--mountain-light-gray) no-repeat center;
     background-size: cover;
     height: 50vw;
     max-height: 300px;

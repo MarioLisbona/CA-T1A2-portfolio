@@ -1,5 +1,5 @@
 .hero-container {
-    background: url(../images/hero-blog.jpg) var(--mountain-light-gray) no-repeat center;
+    background: url(../images/hero-blog-min.jpg) var(--mountain-light-gray) no-repeat center;
     background-size: cover;
 }
 
