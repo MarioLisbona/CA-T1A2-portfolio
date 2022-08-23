@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
-  <link rel="stylesheet" href="./styles/global-style.css">
-  <link rel="stylesheet" href="./styles/projects-style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
-  <script src="./script.js" defer></script>
-  <title>Mario Lisbona | Projects</title>
-</head>
-<body>
-  <!-- start of header area -->
-  <header>
-    <a href="./index.html"><img src="./images/ml-logo.png" alt="" id="logo"></a>
-    <nav>
-      <!-- navigation links -->
-      <a href="./about.html">About</a>
-      <a class="current-page-link">Projects</a>
-      <a href="./blog.html">Blog</a>
-    </nav>
-  </header>
-  <!-- Start of full width Hero image -->
-  <section class="hero-container">
-    <img src="" alt="">
-  </section>
-  <!-- start of main content -->
-  <main>
-    <article>
-      <h1>Projects</h1>
-      <h3>Check out the projects I have recently completed</h3>
-      <p>Over the last few months i've been teaching myself to code and have been working through a few projects on different websites. The projects below have come from two websites, <a href="http://theodinproject.com" target="_blank">The Odin Project</a> and <a href="http://frontendmentor.io" target="_blank">Front-end Mentor</a></p>
-      <p>Going through the material on The Odin Project has allowed me to gain good foundational skills in HTML, CSS and JavaScript. Front-end Mentor has been particularly good in allowing me to learn the skills of looking at a front-end mockup and working out how to create that page. I was only using the free version i didnt have access to the Figma documentation with the exact deatils of eachg project. I feel though that this was good practice in learning to look at deisgns and figruing out by eye how to distance different elements and adjust font sizes to make the HTML look as close as possible to the deisgn breif.</p>
-    </article>
-    <section class="preview-card">
-      <img src="./images/advice-generator.jpg" alt="">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <!-- Below is a link to put my logo icon in the tab bar -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+    <!-- This links the html to the global style sheet for global styles and the more specific style sheet for this page-->
+    <link rel="stylesheet" href="./styles/global-style.css">
+    <link rel="stylesheet" href="./styles/projects-style.css">
+    <!-- Import link for the 2 Google fonts i have used on the site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Linking the javascript file. Defer loads the whole page before applying the JavaScript -->
+    <script src="./script.js" defer></script>
+        <!-- Title for the page -->
+    <title>Mario Lisbona | Projects</title>
+  </head>
+  <body>
+    <!-- start of header area -->
+    <header>
+      <a href="./index.html"><img src="./images/ml-logo.png" alt="" id="logo"></a>
+      <nav>
+        <!-- navigation links -->
+        <a href="./about.html">About</a>
+        <a class="current-page-link">Projects</a>
+        <a href="./blog.html">Blog</a>
+      </nav>
+    </header>
+    <!-- Start of full width Hero image -->
+    <section class="hero-container">
+      <img src="" alt="">
+    </section>
+    <!-- start of main content -->
+    <main>
+      <article>
+        <!-- Start of content. Article is flex-wrap: wrap. So i have nested all the content in a div so that it wraps together as one item -->
+        <h1>Projects</h1>
+        <h3>Check out the projects I have recently completed</h3>
+        <p>Over the last few months i've been teaching myself to code and have been working through a few projects on different websites. The projects below have come from two websites, <a href="http://theodinproject.com" target="_blank">The Odin Project</a> and <a href="http://frontendmentor.io" target="_blank">Front-end Mentor</a></p>
+        <p>Going through the material on The Odin Project has allowed me to gain good foundational skills in HTML, CSS and JavaScript. Front-end Mentor has been particularly good in allowing me to learn the skills of looking at a front-end mockup and working out how to create that page. I was only using the free version i didnt have access to the Figma documentation with the exact deatils of eachg project. I feel though that this was good practice in learning to look at deisgns and figruing out by eye how to distance different elements and adjust font sizes to make the HTML look as close as possible to the deisgn breif.</p>
+      </article>
+      <!-- This is a container to hold all the elements that give a preview of projects iv completed. It has 5 children. The last child is a div with two nested anchor tags so that i could position them independently of the other preview card infomation-->
+      <section class="preview-card">
+        <img src="./images/advice-generator.jpg" alt="">
         <h4>Frontend Mentor project</h4>
         <h4>Advice Generator calling an API</h4>
         <p>This is a project i recently completed that calls an API and displays a random piece of advice. This is the first time i coded anything to call an API in JavaScript using promises. I adapted the code from a totorial I watched.</p>
@@ -44,54 +51,61 @@
           <a href="https://github.com/MarioLisbona/FEM-advice-generator" target="_blank"><p>Visit the Github repo</p></a>
           <a href="https://mariolisbona.github.io/FEM-advice-generator/" target="_blank"><p>Visit the live site</p></a>
         </div>
-    </section>
-    <section class="preview-card">
-      <img src="./images/etch-a-sketch.png" alt="">
-        <h4>The Odin Project Assignment</h4>
-        <h4>Etch-a-Sketch</h4>
-        <p>This was one of the first projects i attempted in HTML, CSS and Javascript. I started it while wheni was 
-          stuck at home for two weeks with Covid. I found it really challenging and it took me quite some time but i learnt alot.
-        </p>
+      </section>
+      <!-- This is a container to hold all the elements that give a preview of projects iv completed. It has 5 children. The last child is a div with two nested anchor tags so that i could position them independently of the other preview card infomation-->
+      <section class="preview-card">
+        <img src="./images/etch-a-sketch.png" alt="">
+          <h4>The Odin Project Assignment</h4>
+          <h4>Etch-a-Sketch</h4>
+          <p>This was one of the first projects i attempted in HTML, CSS and Javascript. I started it while wheni was 
+            stuck at home for two weeks with Covid. I found it really challenging and it took me quite some time but i learnt alot.
+          </p>
+          <div>
+            <a href="https://github.com/MarioLisbona/etch-a-sketch" target="_blank"><p>Visit the Github repo</p></a>
+            <a href="https://mariolisbona.github.io/etch-a-sketch/" target="_blank"><p>Visit the live site</p></a>
+          </div>
+      </section>
+      <!-- This is a container to hold all the elements that give a preview of projects iv completed. It has 5 children. The last child is a div with two nested anchor tags so that i could position them independently of the other preview card infomation-->
+      <section class="preview-card">
+        <img src="./images/article-tooltip.jpg" alt="">
+        <h4>Frontend Mentor project</h4>
+        <h4>Article preview with tooltip</h4>
+        <p>I found creating the layout on this page a little tricky. It contains a dynamic tool tip that will stay over the arrow when the browser is resized. I adapted the JavaScript from a tutorial on tooltips that i found on YouTube.</p>
         <div>
-          <a href="https://github.com/MarioLisbona/etch-a-sketch" target="_blank"><p>Visit the Github repo</p></a>
-          <a href="https://mariolisbona.github.io/etch-a-sketch/" target="_blank"><p>Visit the live site</p></a>
+          <a href="https://github.com/MarioLisbona/FEM-Article-preview" target="_blank"><p>Visit the Github repo</p></a>
+          <a href="https://mariolisbona.github.io/FEM-Article-preview/" target="_blank"><p>Visit the live site</p></a>
         </div>
-    </section>
-    <section class="preview-card">
-      <img src="./images/article-tooltip.jpg" alt="">
-      <h4>Frontend Mentor project</h4>
-      <h4>Article preview with tooltip</h4>
-      <p>I found creating the layout on this page a little tricky. It contains a dynamic tool tip that will stay over the arrow when the browser is resized. I adapted the JavaScript from a tutorial on tooltips that i found on YouTube.</p>
-      <div>
-        <a href="https://github.com/MarioLisbona/FEM-Article-preview" target="_blank"><p>Visit the Github repo</p></a>
-        <a href="https://mariolisbona.github.io/FEM-Article-preview/" target="_blank"><p>Visit the live site</p></a>
-      </div>
-    </section>
-    <section class="preview-card">
-      <img src="./images/signup-form.jpg" alt="">
-      <h4>Frontend Mentor project</h4>
-      <h4>Signup Form with form validation</h4>
-      <p>I found this project quite challenging. I had to do some research on Regex and validation techniques. The script will provide an error message to the user epending on whether the inputs are empty or invalid.</p>
-      <div>
-        <a href="https://github.com/MarioLisbona/FEM-intro-component-with-signup-form" target="_blank"><p>Visit the Github repo</p></a>
-        <a href="https://mariolisbona.github.io/FEM-intro-component-with-signup-form/" target="_blank"><p>Visit the live site</p></a>
-      </div>
-    </section>
-    <div id="btn-scrollup"></div>
-    <section class="social-links">
-      <div>
-        <p>Connet with me on Social Media</p>
+      </section>
+      <!-- This is a container to hold all the elements that give a preview of projects iv completed. It has 5 children. The last child is a div with two nested anchor tags so that i could position them independently of the other preview card infomation-->
+      <section class="preview-card">
+        <img src="./images/signup-form.jpg" alt="">
+        <h4>Frontend Mentor project</h4>
+        <h4>Signup Form with form validation</h4>
+        <p>I found this project quite challenging. I had to do some research on Regex and validation techniques. The script will provide an error message to the user epending on whether the inputs are empty or invalid.</p>
         <div>
-          <a href="https://www.instagram.com/muzzza79/" target="_blank"><img src="./images/icons8-instagram.svg" alt="Instagram"></a>
-          <a href="https://github.com/MarioLisbona" target="_blank"><img src="./images/icons8-github.svg" alt="Github"></a>
-          <a href="https://www.linkedin.com/in/mario-lisbona-0496b8206/" target="_blank"><img src="./images/icons8-linkedin-circled.svg" alt="Linkedin"></a>
-          <a href="https://twitter.com/MarioLisbona" target="_blank"><img src="./images/icons8-twitter-30.svg" alt="Twitter"></a>
+          <a href="https://github.com/MarioLisbona/FEM-intro-component-with-signup-form" target="_blank"><p>Visit the Github repo</p></a>
+          <a href="https://mariolisbona.github.io/FEM-intro-component-with-signup-form/" target="_blank"><p>Visit the live site</p></a>
         </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2022 Mario Lisbona | Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-  </footer>
-</body>
+      </section>
+      <!-- This is the container for the scroll up button -->
+      <!-- It will be hidden untill the user scrolls down 30px from the top of the page -->
+      <div id="btn-scrollup"></div>
+      <!-- This div has 2 children. One child is simply the heading. Its sibling is another div which containes the links and social media icons. This allowed me to flex and align the icons seperatly to the heading of the container. Each link opens in a new tab -->
+      <section class="social-links">
+        <div>
+          <p>Connet with me on Social Media</p>
+          <div>
+            <a href="https://www.instagram.com/muzzza79/" target="_blank"><img src="./images/icons8-instagram.svg" alt="Instagram"></a>
+            <a href="https://github.com/MarioLisbona" target="_blank"><img src="./images/icons8-github.svg" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/mario-lisbona-0496b8206/" target="_blank"><img src="./images/icons8-linkedin-circled.svg" alt="Linkedin"></a>
+            <a href="https://twitter.com/MarioLisbona" target="_blank"><img src="./images/icons8-twitter-30.svg" alt="Twitter"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- The footer section contains a copyright messsage and a credit link to Icons8 where i downloaded the icons from -->
+    <footer>
+      <p>&copy; 2022 Mario Lisbona | Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+    </footer>
+  </body>
 </html>
