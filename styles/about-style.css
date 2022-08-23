@@ -31,20 +31,6 @@
     margin: 0 0 0 1rem;
 }
 
-/* .contact-container a {
-    color: var(--mountain-dark-gray);
-    text-decoration: none;
-}
-
-.contact-container a:hover {
-    color: var(--logo-orange);
-} */
-
-/* .resume-container a,
-.resume-container p {
-    font-family: 'Roboto Slab', serif;
-} */
-
 @media screen and (min-width: 900px) {
     .about-info {
         flex: 1;

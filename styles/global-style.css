@@ -96,9 +96,8 @@ article h3 {
     width: 40vw;
     min-width: 200px;
     min-height: 200px;
-    max-width: 400px;
+    max-width: 300px;
     border: 2px solid var(--mountain-light-gray);
-
 }
 
 .my-info {
