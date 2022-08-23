@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <!-- Below is a link to put my logo icon in the tab bar -->
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+    <!-- This links the html to the global style sheet for global styles and the more specific style sheet for this page-->
     <link rel="stylesheet" href="./styles/global-style.css">
     <link rel="stylesheet" href="./styles/blog-style.css">
+    <!-- Import link for the 2 Google fonts i have used on the site -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Linking the javascript file. Defer loads the whole page before applying the JavaScript -->
+    <script src="./script.js" defer></script>
     <title>Mario Lisbona | Blog Home</title>
   </head>
   <body>
@@ -16,7 +21,7 @@
     <header>
       <a href="./index.html"><img src="./images/ml-logo.png" alt="" id="logo"></a>
       <nav>
-        <!-- navigation links -->
+        <!-- navigation links. The .current-page-link class allows me to style the link on each page that is currently open and being viewed -->
         <a href="./about.html">About</a>
         <a href="./projects.html">Projects</a>
         <a class="current-page-link">Blog</a>
@@ -29,7 +34,7 @@
     <!-- start of main content -->
     <main>
       <nav class="blog-nav">
-        <!-- Blog navigation links -->
+        <!-- Blog navigation links. I created a new class blog-current-page-link to style link forthe particular blog page that is open-->
         <a class="blog-current-page-link">Blog Home</a>
         <a href="./blog-post-alaska.html">Alaska</a>
         <a href="./blog-post-fires.html">Bush Fires</a>
@@ -37,20 +42,23 @@
         <a href="./blog-post-the-mentawais.html">The Mentawai's</a>
         <a href="./blog-post-austria.html">Austria</a>
       </nav>
+      <!-- Iv kept the h1 and h3 inside the artcle as its the only text content independent of a preview card. And it allows me to flex them fully accross the width of the container so they take up a row each while the preview cards beelow will wrap when the screen sixe changes -->
       <article>
         <h1>Blog</h1>
         <h3>Adventures at work, in the mountains and in the ocean</h3>
       </article>
+      <!-- This is another container for preview images and information about the blog. It uses the same class and global styles as the preview container in the projects page -->
       <section class="preview-card">
         <img src="./images/hero-alaska.JPG" alt="The Wrangles Mountain range, Alaksa">
-          <div class="title">
-            <h4>The Alaskan Backcountry</h4>
-            <h4>Aug 28, 2022</h4>
-          </div>
-          <a href="./blog-post-alaska.html">
-            <p>A friend had been begging me to come and snowboard the insane mountains for a few years and in finally mae the trip in 2019. Its the biggest place iv ever been to and ive never been so out of my comfort zone for such an extended period. I cant wait to get back there. </p>
-          </a>
+        <div class="title">
+          <h4>The Alaskan Backcountry</h4>
+          <h4>Aug 28, 2022</h4>
+        </div>
+        <a href="./blog-post-alaska.html">
+          <p>A friend had been begging me to come and snowboard the insane mountains for a few years and in finally mae the trip in 2019. Its the biggest place iv ever been to and ive never been so out of my comfort zone for such an extended period. I cant wait to get back there. </p>
+        </a>
       </section>
+      <!-- This is another container for preview images and information about the blog. It uses the same class and global styles as the preview container in the projects page -->
       <section class="preview-card">
         <img src="./images/hero-fires.jpg" alt="A Photo of a Kangaroo in burnt bushland">
           <div class="title">
@@ -61,6 +69,7 @@
             <p>While cover the 2019 bush fires  in Wisemands Ferry for TEN news as a cameraman i had a very close call. I was with a news crew when we were trapped on a property momentarily while a spot fire sounded us and blocked out exit from the property</p>
           </a>
       </section>
+      <!-- This is another container for preview images and information about the blog. It uses the same class and global styles as the preview container in the projects page -->
       <section class="preview-card">
         <img src="./images/hero-coda.jpg" alt="A picture of a cute cat lying on the grass">
           <div class="title">
@@ -71,6 +80,7 @@
             <p>We got Coda at the start of the pandemic. I was always a dog person but my Wife grew up with cats. So at the start of lockdowns we decided to look for a rescue. She's so weird, and we love her</p>
           </a>
       </section>
+      <!-- This is another container for preview images and information about the blog. It uses the same class and global styles as the preview container in the projects page -->
       <section class="preview-card">
         <img src="./images/hero-ments.jpg" alt="A picture of me surfing in the barrel of a wave">
           <div class="title">
@@ -81,6 +91,7 @@
             <p>The mentawai islands are a chain of islands 90 nautical miles off North Sumatra and they have some of the best waves in th world. Its also an expceptionally beautiful part of the world.</p>
           </a>
       </section>
+      <!-- This is another container for preview images and information about the blog. It uses the same class and global styles as the preview container in the projects page -->
       <section class="preview-card">
         <img src="./images/hero-austria.JPG" alt="An Austrian mountain village in the winter">
           <div class="title">
@@ -89,10 +100,12 @@
           </div>
           <a href="./blog-post-austria.html">
             <p>The joined the same friend i went to Alaska with to explore the alps in Austria. They're, huge, beautiful, scary and so fun all at the same time. The culture, food, and people are so nice. And the sauna's are eveywhere and the best way to recover after a day snowboarding powder.</p>
-            <script src="./script.js" defer></script>
           </a>
       </section>
+      <!-- This is the container for the scroll up button -->
+      <!-- It will be hidden untill the user scrolls down 30px from the top of the page -->
       <div id="btn-scrollup"></div>
+      <!-- This div has 2 children. One child is simply the heading. Its sibling is another div which containes the links and social media icons. This allowed me to flex and align the icons seperatly to the heading of the container. Each link opens in a new tab -->
       <section class="social-links">
         <div>
           <p>Connet with me on Social Media</p>
@@ -105,6 +118,7 @@
         </div>
       </section>
     </main>
+    <!-- The footer section contains a copyright messsage and a credit link to Icons8 where i downloaded the icons from -->
     <footer>
       <p>&copy; 2022 Mario Lisbona | Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
     </footer>
