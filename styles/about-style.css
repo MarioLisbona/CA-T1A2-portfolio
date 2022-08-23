@@ -19,9 +19,9 @@
     margin: 0 0 1rem .5rem;
 }
 
-.phone-container,
-.email-container,
-.resume-container {
+#phone-container,
+#email-container,
+#resume-container {
     display: flex;
     justify-content: center;
     align-items: center;
