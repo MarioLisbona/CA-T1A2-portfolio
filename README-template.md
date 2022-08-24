@@ -37,6 +37,7 @@ I have adapted [JavaScript](./README-template.md#useful-resources) that i found 
 - Blog: This is the blog homepage. It has its own nav bar for navigating to any of the 5 current blog posts as well as preview cards of each blog. Each Blog post has a story and 6 thumnail images at the bottom. The thumbnails can be clicked to open a lightbox showing the full image as well as thumnails and previous/next buttons on the side of the full image to show the previous/next images.
 
 ### **Sitemap**
+![Sitemap](./docs/T1A2%20-%20Portfolio%20Website%20Sitemap.drawio.png)
 
 ### **Screenshots**
 
@@ -64,6 +65,7 @@ My target audience is prospective employers or potential clients.
 }`
 - [icons8](https://icons8.com/) - I used this site for all the icons. I ended up using .png icons because i couldnt download enough .svg files with a free account.
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/) I used this as my guide when creating this README.md
+- [Media querry for landscape phones](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) The nav bar was top large on a phone in landscape mode. This was a good reaource for media querries for mobile devides.
 
 ## **Author**
 
