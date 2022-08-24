@@ -51,8 +51,9 @@ article {
 .preview-card  p,
 .preview-card a {
     text-align: justify;
-    color: var(--mountain-dark-gray);
+    text-decoration: none;
 }
+
 
 .preview-card h4:last-of-type {
     text-align: right;
