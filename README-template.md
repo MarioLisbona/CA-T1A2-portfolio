@@ -7,12 +7,15 @@ This is my solution for the [Coder Academy Term 1 Assignment: T1A2 - Portfolio](
 - [**Code Academy - T1A2 - Portfolio: Submitted by Mario Lisbona**](#code-academy---t1a2---portfolio-submitted-by-mario-lisbona)
   - [**Table of contents**](#table-of-contents)
   - [**Links**](#links)
-    - [**Purpose**](#purpose)
-    - [**Functionality / features**](#functionality--features)
-    - [**Sitemap**](#sitemap)
-    - [**Screenshots**](#screenshots)
-    - [**Target audience**](#target-audience)
-    - [**Tech stack**](#tech-stack)
+  - [**Purpose**](#purpose)
+  - [**Functionality / features**](#functionality--features)
+  - [**Sitemap**](#sitemap)
+  - [**Wireframes**](#wireframes)
+  - [**Screenshots**](#screenshots)
+    - [**Wireframes**](#wireframes-1)
+    - [**Website**](#website)
+  - [**Target audience**](#target-audience)
+  - [**Tech stack**](#tech-stack)
   - [**Useful resources**](#useful-resources)
   - [**Author**](#author)
 
@@ -21,31 +24,38 @@ This is my solution for the [Coder Academy Term 1 Assignment: T1A2 - Portfolio](
 - [Porfolio Website](https://mariolisbona.github.io/CA-T1A2-portfolio/index.html)
 - [Github Repo](https://github.com/MarioLisbona/CA-T1A2-portfolio)
 
-### **Purpose**
+## **Purpose**
 
-The purpse of this website is to both demonstrate the skills i poses in building wesbites that are simple, effective and engaging as well as highlighting my background and soft skills that will completement the technincal foundations that i am building upon.
+The purpse of this website is to both demonstrate the skills i poses in building wesbites that are simple, effective and engaging as well as highlighting my background and soft skills that will compliment the technincal foundations that i am building upon.
 
-### **Functionality / features**
+## **Functionality / features**
 
-This website is deisgned to be responsive across mobile, tablet and desktop devices. I have created 4 main pages that all follow a similar theme with their banner pictures of nature and the elemments. I have used a minimilst deisgn with fairly muted colors with only one highlighting color that is used for links and hover psuedoclasses. This is the same color as i have used in the brackets in my logo.
+This website is deisgned to be responsive across mobile, tablet and desktop devices. I have created 4 main pages that all follow a similar theme with their banner pictures of nature and the elements. I have used a minimilst design with muted colors with only one highlighting color that is used for links and hover psuedoclasses. This is the same color as i have used for the brackets in my logo.
 
 I have adapted [JavaScript](./README-template.md#useful-resources) that i found on W3Shcools to apply a lightbox for the Blog Photos. I also adapted some JavaScript for a scroll to top button. The four main pages on the website are:
 
 - Landing Page / Home: This is the landing page and has a breif description about myself and a call to action to sign up to my blog.
-- About: This page has some information about my previous work history and a section on why i have chosen to transition into Tech. It also has a seciton where visitors can find more information via phone and email links and a link to my resume.
-- Projects: This page has links to 4 preview cards that link to projects i have recelty completed using HTML, CSS and JavaScript.
-- Blog: This is the blog homepage. It has its own nav bar for navigating to any of the 5 current blog posts as well as preview cards of each blog. Each Blog post has a story and 6 thumnail images at the bottom. The thumbnails can be clicked to open a lightbox showing the full image as well as thumnails and previous/next buttons on the side of the full image to show the previous/next images.
+- About: This page has some information about my previous work history and a section on why i have chosen to transition into tech. It also has a section where visitors can find more information via phone and email links and a link to my resume.
+- Projects: This page has 4 preview cards that link to projects i have recelty completed using HTML, CSS and JavaScript.
+- Blog: This is the blog homepage. It has its own nav bar for navigating to any of the 5 current blog posts as well as preview cards of each blog. Each Blog post has a story a title, sub title and 6 thumnail images at the bottom. The thumbnails can be clicked to open a lightbox showing the full image as well as thumnails and previous/next buttons on the side of the full image.
 
-### **Sitemap**
+## **Sitemap**
+
 ![Sitemap](./docs/T1A2%20-%20Portfolio%20Website%20Sitemap.drawio.png)
 
-### **Screenshots**
+## **Wireframes**
 
-### **Target audience**
+## **Screenshots**
+
+### **Wireframes**
+
+### **Website**
+
+## **Target audience**
 
 My target audience is prospective employers or potential clients.
 
-### **Tech stack**
+## **Tech stack**
 
 - Website: Semantic HTML5 markup, CSS and JavaScript
 - Workflow: Mobile-first workflow
