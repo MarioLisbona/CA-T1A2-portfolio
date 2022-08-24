@@ -47,8 +47,7 @@ My target audience is prospective employers or potential clients.
 
 ### **Tech stack**
 
-- Website: Semantic HTML5 markup & CSS
-- JavaScript
+- Website: Semantic HTML5 markup, CSS and JavaScript
 - Workflow: Mobile-first workflow
 - Deployment: [Githiub Pages](https://pages.github.com/)
 - Wireframes: [Balsamiq Wireframes](https://balsamiq.com/)
