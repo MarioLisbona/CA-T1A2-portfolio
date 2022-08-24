@@ -1,8 +1,9 @@
 /* Variables for colors that i use throughout the whole site */
 /* =================ROOT========================*/
 :root {
-    --logo-orange: #ff5757;
-    --cloud-white: hsl(225,2%,90%);
+    /* --logo-orange: #ff5757; */
+    --logo-orange: #C20000;
+    --cloud-white: #e5e5e6;
     --mountain-light-gray: hsl(40,2%,47%);
     --mountain-light-gray-transparent: hsla(48, 2%, 47%, 0.2);
     --mountain-medium-gray: hsl(45, 2%, 37%);
@@ -20,12 +21,15 @@
     /* outline: 1px solid black; */
     font-family: 'Roboto Slab', serif;
     line-height: 1.5;
-
 }
 
 a {
     color: var(--logo-orange);
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 /* =================/RESETS========================*/
 
 /* Styling for the header which the nav bar is contained in. The logo and nav links are siblings so iv used space between to set them to the left and right sides fo the nav bar. Position is sticky and opacity is .75 so that the nav bar always stays at the top but you can slightly see the page scroll underneath it.*/
