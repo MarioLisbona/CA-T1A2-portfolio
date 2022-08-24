@@ -1,8 +1,10 @@
+/* This is using the base style from global-style.css but i need to change the url for each banner image. For some reason i need to add background-size: cover; here even though its in th base class*/
 .hero-container {
     background: url(../images/hero-blog-min.jpg) var(--mountain-light-gray) no-repeat center;
     background-size: cover;
 }
 
+/* Styling the blog nav bar links and hover states */
 .blog-nav {
     flex: 100%;
     display: flex;
@@ -22,6 +24,7 @@
     color: var(--logo-orange);
 }
 
+/* Another class used to style the link on the current blog page */
 .blog-current-page-link {
     border-bottom: 1px dotted var(--mountain-dark-gray);
     color: var(--logo-orange);
@@ -32,7 +35,7 @@
     border-bottom: 1px dotted var(--mountain-dark-gray);
     cursor:initial;
 }
-
+/* On this page article only contains the two titles so iv flexed it to 100% so it doesnt wrap. */
 article {
     flex: 100%;
 }
@@ -54,10 +57,13 @@ article {
     text-decoration: none;
 }
 
-
+/* This is to right justify the dates on each blog preview card */
 .preview-card h4:last-of-type {
     text-align: right;
 }
+
+
+/* Media querry's for all device responsiveness */
 
 @media screen and (max-width: 600px) {
     .preview-card {
