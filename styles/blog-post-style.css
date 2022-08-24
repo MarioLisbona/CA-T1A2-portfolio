@@ -22,7 +22,7 @@
 }
 
 .hero-container.austria {
-    background: url(../images/hero-austria-min.JPG) var(--mountain-light-gray) no-repeat 50% 20%;
+    background: url(../images/hero-austria-min.JPG) var(--mountain-light-gray) no-repeat 50% 70%;
     background-size: cover;
 }
 
