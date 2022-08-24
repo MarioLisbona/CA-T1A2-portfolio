@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
     <!-- Linking the javascript file. Defer loads the whole page before applying the JavaScript -->
-    <script src="./script.js" defer></script>
+    <!-- <script src="./script.js" defer></script> -->
+    <script src="./test.js" defer></script>
     <!-- Title for the page -->
     <title>Mario Lisbona | Alaska</title>
   </head>
@@ -51,13 +52,21 @@
         <!-- The blog-photos container holds the thumnails for the blog post. Each thumbnail calls the openModal and currentSlide function in JavaScript. An argument based on which image is chosen(1-6) is passed to currentSlide -->
         <!-- If i have enough time remaining i will transfer these onclick function calls teh javascript file with an event listener on the thumbnails. Most likely will need to do this with a callback that will pass back which img was clicked  -->
         <div class="blog-photos">
+          <img src="./images/alaska-1-min.JPG">
+          <img src="./images/alaska-2-min.JPG">
+          <img src="./images/alaska-3-min.JPG">
+          <img src="./images/alaska-4-min.JPG">
+          <img src="./images/alaska-5-min.JPG">
+          <img src="./images/alaska-6-min.JPG">
+        </div>
+        <!-- <div class="blog-photos">
           <img src="./images/alaska-1-min.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow">
           <img src="./images/alaska-2-min.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow">
           <img src="./images/alaska-3-min.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow">
           <img src="./images/alaska-4-min.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow">
           <img src="./images/alaska-5-min.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow">
           <img src="./images/alaska-6-min.JPG" onclick="openModal();currentSlide(6)" class="hover-shadow">
-        </div>
+        </div> -->
         <!-- The Modal/Lightbox -->
         <div id="myModal" class="modal">
           <!-- a span for the close lightbox button which calls closModal() when clicked -->
