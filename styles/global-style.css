@@ -3,7 +3,7 @@
 :root {
     /* --logo-orange: #ff5757; */
     --logo-orange: #C20000;
-    --cloud-white: #e5e5e6;
+    --cloud-white: hsl(240, 2%, 90%);
     --mountain-light-gray: hsl(40,2%,47%);
     --mountain-light-gray-transparent: hsla(48, 2%, 47%, 0.2);
     --mountain-medium-gray: hsl(45, 2%, 37%);
@@ -181,7 +181,7 @@ article input {
 }
 
 #instagram-icon:hover {
-    background: url(../images/icons8-instagram-30-orange.png);
+    background: url(../images/icons8-instagram-30-red.png);
     cursor: pointer;
 }
 
@@ -192,7 +192,7 @@ article input {
 }
 
 #github-icon:hover {
-    background: url(../images/icons8-github-30-orange.png);
+    background: url(../images/icons8-github-30-red.png);
     cursor: pointer;
 }
 
@@ -203,7 +203,7 @@ article input {
 }
 
 #linkedin-icon:hover {
-    background: url(../images/icons8-linkedin-circled-30-orange.png);
+    background: url(../images/icons8-linkedin-circled-30-red.png);
     cursor: pointer;
 }
 
@@ -214,7 +214,7 @@ article input {
 }
 
 #twitter-icon:hover {
-    background: url(../images/icons8-twitter-30-orange.png);
+    background: url(../images/icons8-twitter-30-red.png);
     cursor: pointer;
 }
 
