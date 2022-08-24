@@ -29,7 +29,12 @@ The purpse of this website is to both demonstrate the skills i poses in building
 
 This website is deisgned to be responsive across mobile, tablet and desktop devices. I have created 4 main pages that all follow a similar theme with their banner pictures of nature and the elemments. I have used a minimilst deisgn with fairly muted colors with only one highlighting color that is used for links and hover psuedoclasses. This is the same color as i have used in the brackets in my logo.
 
-I have adapted [JavaScript](./README-template.md#useful-resources) that i found on W3Shcools to apply a lightbox for the Blog Photos. I also adapted some JavaScript for a scroll to top button.
+I have adapted [JavaScript](./README-template.md#useful-resources) that i found on W3Shcools to apply a lightbox for the Blog Photos. I also adapted some JavaScript for a scroll to top button. The four main pages on the website are:
+
+- Landing Page / Home: This is the landing page and has a breif description about myself and a call to action to sign up to my blog.
+- About: This page has some information about my previous work history and a section on why i have chosen to transition into Tech. It also has a seciton where visitors can find more information via phone and email links and a link to my resume.
+- Projects: This page has links to 4 preview cards that link to projects i have recelty completed using HTML, CSS and JavaScript.
+- Blog: This is the blog homepage. It has its own nav bar for navigating to any of the 5 current blog posts as well as preview cards of each blog. Each Blog post has a story and 6 thumnail images at the bottom. The thumbnails can be clicked to open a lightbox showing the full image as well as thumnails and previous/next buttons on the side of the full image to show the previous/next images.
 
 ### **Sitemap**
 
