@@ -51,7 +51,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aut inventore exercitationem quaerat, maiores id a minima blanditiis ipsa molestiae eaque tempore quis, nihil eligendi saepe enim, nemo amet! Itaque nostrum sapiente laborum laboriosam, ullam repellendus odio aut aliquam, consectetur repellat doloremque necessitatibus corporis cum, at atque earum eum. Pariatur excepturi nemo porro odit qui vero, error omnis, iure blanditiis alias, quia eaque laudantium voluptatum quos quisquam natus. Odio molestiae veniam deleniti velit cumque omnis odit laudantium doloribus rerum. Obcaecati dolorem blanditiis vero totam dicta, sint aliquid ea. Perferendis distinctio amet sequi vero vitae, voluptatibus perspiciatis a vel corporis iusto temporibus culpa porro facere quis harum qui facilis quaerat mollitia magnam? Dignissimos minima saepe aliquam eveniet quod obcaecati? At aperiam impedit in beatae necessitatibus eaque eum praesentium voluptatum sunt aliquam nulla odit laudantium unde ullam, atque, eveniet fuga excepturi. Maiores eum quas praesentium eaque temporibus quasi veritatis cum reprehenderit magnam doloremque suscipit fugit laboriosam accusantium optio quo, nulla ea voluptas eos sint. Autem, sequi pariatur iusto alias saepe repellendus illum aliquam incidunt cum voluptatibus sed. Vitae saepe ut sequi porro nesciunt. Exercitationem sequi iure at magni, aperiam harum rerum quis maxime similique beatae sunt? Ut provident voluptate perferendis deserunt vitae, beatae velit enim excepturi, vel fugiat quia ratione illum nisi. Reiciendis saepe quaerat dicta reprehenderit est cum? Numquam veniam doloribus unde repellat, at voluptatem aut aliquam, illum cum delectus corporis porro temporibus nisi iure ea voluptas blanditiis quo consequuntur magnam. Excepturi eos magnam et quod illo cumque provident illum quisquam vel ab in repudiandae, sed nulla mollitia tempora fuga vero. Maxime sequi consequuntur nostrum, eos aspernatur iste obcaecati blanditiis eveniet. Modi facilis ducimus quaerat cupiditate commodi quasi laudantium tenetur fuga exercitationem facere, dolorum quam, temporibus iste? Reprehenderit voluptas, labore consequuntur minus repellat repudiandae ullam eligendi similique dolores quam at aperiam incidunt nesciunt natus atque quas culpa quidem fugit, tenetur iusto id dolor inventore. Praesentium quia aut, nobis soluta neque similique iste asperiores officiis est sint aspernatur delectus sunt tempore modi perferendis explicabo. Nemo, tempora, recusandae sapiente voluptatum vero iure perspiciatis nihil dolore similique quae praesentium alias impedit itaque vitae totam et. Aspernatur necessitatibus voluptas animi tenetur repellat quis sapiente esse cum, quia quos debitis! Magni, ullam, voluptate ut dignissimos molestiae nostrum saepe officia qui asperiores corrupti nemo esse deleniti deserunt modi. Totam tempora sed eos sequi inventore ab nostrum architecto esse, modi corporis odio minus provident non, accusamus porro alias?</p>
         <!-- The blog-photos container holds the thumnails for the blog post. Each thumbnail calls the openModal and currentSlide function in JavaScript. An argument based on which image is chosen(1-6) is passed to currentSlide -->
         <!-- If i have enough time remaining i will transfer these onclick function calls teh javascript file with an event listener on the thumbnails. Most likely will need to do this with a callback that will pass back which img was clicked  -->
-        <div class="blog-photos">
+        <div class="blog-photos blog-page-photos">
           <img src="./images/alaska-1-min.JPG">
           <img src="./images/alaska-2-min.JPG">
           <img src="./images/alaska-3-min.JPG">
@@ -70,7 +70,7 @@
         <!-- The Modal/Lightbox -->
         <div id="myModal" class="modal">
           <!-- a span for the close lightbox button which calls closModal() when clicked -->
-          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <span class="close cursor">&times;</span>
           <div class="modal-content">
             <!-- container for each full image -->
             <div class="mySlides">
@@ -104,8 +104,8 @@
             </div>
             <!-- Next/previous controls -->
             <!-- Container to display nexta nd previous icons. the plusSlides function is called with 1 to advance to next slide and -1 to go to previous slide -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
 
             <!-- Caption text -->
             <div class="caption-container">
@@ -115,27 +115,27 @@
             <!-- Thumbnail image controls -->
             <!-- A container for the thumnails beneath the lightbox image. currentSlide is passed a number of which image thumgnail has been clicked. The alt text for the image is displayed under the full image in the lightbox -->
             <div class="column blog-photos">
-              <img class="demo" src="./images/alaska-1-min.JPG" onclick="currentSlide(1)" alt="Valdez Harbour">
+              <img id="thumb-1" class="demo" src="./images/alaska-1-min.JPG" data-pos="1" alt="Valdez Harbour">
             </div>
             <!-- A container for the thumnails beneatch the lightbox image. currentSlide is passed a number of which image thumgnail has been clicked. The alt text for the image is displayed under the full image in the lightbox -->
             <div class="column blog-photos">
-              <img class="demo" src="./images/alaska-2-min.JPG" onclick="currentSlide(2)" alt="Camping at Thompson Pass for Tailgate Festival">
+              <img id="thumb-2" class="demo" src="./images/alaska-2-min.JPG" data-pos="2" alt="Camping at Thompson Pass for Tailgate Festival">
             </div>
             <!-- A container for the thumnails beneatch the lightbox image. currentSlide is passed a number of which image thumgnail has been clicked. The alt text for the image is displayed under the full image in the lightbox -->
             <div class="column blog-photos">
-              <img class="demo" src="./images/alaska-3-min.JPG" onclick="currentSlide(3)" alt="Bald Eagle in Seaward">
+              <img id="thumb-3" class="demo" src="./images/alaska-3-min.JPG" data-pos="3" alt="Bald Eagle in Seaward">
             </div>
             <!-- A container for the thumnails beneatch the lightbox image. currentSlide is passed a number of which image thumgnail has been clicked. The alt text for the image is displayed under the full image in the lightbox -->
             <div class="column blog-photos">
-              <img class="demo" src="./images/alaska-4-min.JPG" onclick="currentSlide(4)" alt="Doing a plane bump to a zone called The Books on Heiden Glacier">
+              <img id="thumb-4" class="demo" src="./images/alaska-4-min.JPG" data-pos="4" alt="Doing a plane bump to a zone called The Books on Heiden Glacier">
             </div>
             <!-- A container for the thumnails beneatch the lightbox image. currentSlide is passed a number of which image thumgnail has been clicked. The alt text for the image is displayed under the full image in the lightbox -->
             <div class="column blog-photos">
-              <img class="demo" src="./images/alaska-5-min.JPG" onclick="currentSlide(5)" alt="Skier about to ascend a face in The Books">
+              <img id="thumb-5" class="demo" src="./images/alaska-5-min.JPG" data-pos="5" alt="Skier about to ascend a face in The Books">
             </div>
             <!-- A container for the thumnails beneatch the lightbox image. currentSlide is passed a number of which image thumgnail has been clicked. The alt text for the image is displayed under the full image in the lightbox -->
             <div class="column blog-photos">
-              <img class="demo" src="./images/alaska-6-min.JPG" onclick="currentSlide(6)" alt="Sleding to a zone in Thompson Pass">
+              <img id="thumb-6" class="demo" src="./images/alaska-6-min.JPG" data-pos="6" alt="Sleding to a zone in Thompson Pass">
             </div>
           </div>
         </div>
