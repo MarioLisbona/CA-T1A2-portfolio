@@ -371,3 +371,14 @@ footer {
     }
 
 }
+
+/* slim down the nav bar to 50px on phones when in landcape mode */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (orientation: landscape) { 
+
+    header {
+        max-height: 50px;
+    }
+}
