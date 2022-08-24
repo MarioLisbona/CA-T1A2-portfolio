@@ -292,7 +292,7 @@ footer {
 }
 
 #btn-scrollup:hover {
-    background: url(../images/icons8-up-squared-50-orange.png);
+    background: url(../images/icons8-up-squared-50-red.png);
 }
 
 @media screen and (min-width: 600px) and (max-width: 849px) {
