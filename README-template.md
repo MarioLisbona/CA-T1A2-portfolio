@@ -23,7 +23,7 @@ This is my solution for the [Coder Academy Term 1 Assignment: T1A2 - Portfolio](
 
 ### **Purpose**
 
-The purpse of this website is to both demonstrate the skills i poses in building wesbites that ar simple, effective and engaging as well as highlighting my background and soft skills that will completement the technincal foundations that i am building.
+The purpse of this website is to both demonstrate the skills i poses in building wesbites that are simple, effective and engaging as well as highlighting my background and soft skills that will completement the technincal foundations that i am building upon.
 
 ### **Functionality / features**
 
@@ -42,7 +42,7 @@ My target audience is prospective employers or potential clients.
 ### **Tech stack**
 
 - Website: Semantic HTML5 markup & CSS
-- 
+- JavaScript
 - Workflow: Mobile-first workflow
 - Deployment: [Githiub Pages](https://pages.github.com/)
 - Wireframes: [Balsamiq Wireframes](https://balsamiq.com/)
@@ -54,7 +54,7 @@ My target audience is prospective employers or potential clients.
 
 - [W3 Schools - Lightbox modal](https://www.w3schools.com/howto/howto_js_lightbox.asp) - I adapted this code to use as the lightbox for the images in each blog post. The javascript function calls are called with onlcick in the HTML - If i have time i plan to migrate these over to the .js file and use event listeners to call the functions.
 - [W3 Schools - Scroll to top](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) - I adapted this code to create a scroll to top button that uses javascript to hide the button untill the window is scrolled down 30px.
-- [W3 Schools - smooth SCrolling](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2) - This simple html declaration allows the scroll to top button to slide up smoothly rather than instatly go to the top of the page. `html {
+- [W3 Schools - smooth Scrolling](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2) - This simple html declaration allows the scroll to top button to slide up smoothly rather than instatly go to the top of the page. `html {
   scroll-behavior: smooth;
 }`
 - [icons8](https://icons8.com/) - I used this site for all the icons. I ended up using .png icons because i couldnt download enough .svg files with a free account.
