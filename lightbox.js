@@ -16,9 +16,6 @@ const thumbSix = document.getElementById('thumb-6');
 //creating an array of each thumbnail html element
 const photoArray = [thumbOne, thumbTwo, thumbThree, thumbFour, thumbFive, thumbSix];
 
-//initialising the showSlides function??
-var slideIndex = 1;
-showSlides(slideIndex);
 
 // Callback function on blogphoto object. Returns an event (e) when one of objects children (the blog photo's) is clicked
 //openModal is called
@@ -63,6 +60,7 @@ function closeModal() {
 document.getElementById("myModal").style.display = "none";
 }
 
+
 // function to find the photo position of the photo that is clicked
 function getPhotoPosition(x) {
   var y = 0;
@@ -81,6 +79,11 @@ function currentSlide(n) {
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+
+//initialising the showSlides function??
+var slideIndex = 1;
+showSlides(slideIndex);
+
 
 //logic fo showing thumbnails
 //just noticed the use of getElementsByClassName method. will investigate whether this can be used instead of ther ID's and array for thumbnail images
