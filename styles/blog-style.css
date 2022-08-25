@@ -57,6 +57,28 @@ article {
     text-decoration: none;
 }
 
+#alaska-preview-pic {
+    background: url(../images/hero-alaska-min.JPG);
+    background-size: cover;
+}
+#fires-preview-pic {
+    background: url(../images/hero-fires-min.jpg);
+    background-size: cover;
+}
+#coda-preview-pic {
+    background: url(../images/hero-coda-min.jpg);
+    background-size: cover;
+}
+#ments-preview-pic {
+    background: url(../images/hero-ments-min.jpg);
+    background-size: cover;
+}
+
+#austria-preview-pic {
+    background: url(../images/hero-austria-min.JPG);
+    background-size: cover;
+}
+
 /* This is to right justify the dates on each blog preview card */
 .preview-card h4:last-of-type {
     text-align: right;
