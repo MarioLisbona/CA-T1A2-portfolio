@@ -107,13 +107,13 @@ I have adapted [JavaScript](./README-template.md#useful-resources) that i found 
 
 ## **Target audience**
 
-My target audience is prospective employers or potential clients.
+My target audience is prospective employers and potential clients.
 
 ## **Tech stack**
 
 - Website: Semantic HTML5 markup, CSS and JavaScript
 - Workflow: Mobile-first workflow
-- Deployment: [Githiub Pages](https://pages.github.com/)
+- Deployment: [Github Pages](https://pages.github.com/)
 - Wireframes: [Balsamiq Wireframes](https://balsamiq.com/)
 - Sitemap: [draw.io](https://draw.io)
 - Image optimisation: [Optimizilla](https://imagecompressor.com/)
