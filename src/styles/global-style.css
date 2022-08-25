@@ -47,6 +47,7 @@ header {
     position: sticky;
     top: 0;
     background: hsla(0, 0%, 100%, .75);
+    /* background: hsl(0, 0%, 100%); */
     border-bottom: 1px solid var(--mountain-light-gray);
     max-height: 100px;
 }

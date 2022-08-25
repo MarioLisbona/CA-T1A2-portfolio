@@ -62,7 +62,7 @@
     cursor:initial;
 }
 
-/* styling the blog's conents */
+/* styling the blog's conents. flex to full width*/
 .title {
     display: flex;
     justify-content: space-between;
@@ -73,11 +73,6 @@
 article p {
     margin: 2rem 1rem;
 }
-
-/* .blog-preview-card  p {
-    text-align: justify;
-} */
-
 /* wrapping the blog photo thumbnail container */
 .blog-photos {
     width: 100%;
