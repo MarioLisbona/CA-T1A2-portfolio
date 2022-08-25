@@ -1,0 +1,72 @@
+/* This is using the base style from global-style.css but i need to change the url for each banner image. For some reason i need to add background-size: cover; here even though its in th base class*/
+.hero-container {
+    background: url(../images/hero-about-min.jpg) var(--mountain-light-gray) no-repeat center;
+    /* Need to include this here as it doesnt seem to inherti from index-style.css */
+    background-size: cover;
+}
+
+/* styling the main text on the about page */
+.about-info p {
+    text-align: justify;
+    width: 100%;
+}
+
+/* flexbox for styling the links and images in more information section */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-container h3 {
+    margin: 0 0 1rem .5rem;
+}
+/* aligning each icon/info element for phone, email and resume */
+
+#phone-container,
+#email-container,
+#resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container p {
+    margin: 0 0 0 1rem;
+}
+
+
+/* Media querry's for all device responsiveness */
+
+@media screen and (min-width: 900px) {
+    .about-info {
+        flex: 1;
+    }
+
+    .about-info p {
+        text-align: left;
+        width: 90%;
+    }
+
+    .about-info h1,
+    .about-info h2 {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contact-container {
+        justify-content: flex-end;
+        max-height: 200px;
+        margin: 1rem 2rem 0 0;
+        order: -1;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    main {
+        justify-content: center;
+        align-items: center;
+        margin: 1.25rem;
+    }
+}

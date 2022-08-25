@@ -1,0 +1,385 @@
+/* /////////////////////////CSS GLOBAL VARIBLES//////////////////////////// */
+
+
+
+/* Variables for colors that i use throughout the whole site */
+/* =================ROOT========================*/
+:root {
+    /* --logo-orange: #ff5757; */
+    --logo-orange: #C20000;
+    --cloud-white: hsl(240, 2%, 90%);
+    --mountain-light-gray: hsl(40,2%,47%);
+    --mountain-light-gray-transparent: hsla(48, 2%, 47%, 0.2);
+    --mountain-medium-gray: hsl(45, 2%, 37%);
+    --mountain-dark-gray: #464543;
+}
+/* =================/ROOT========================*/
+
+/* Setting wildcard to borderbox, font and line height as well as 0 padding and margin for the entire site. */
+/* Also setting every anchor tag to the orange i sued in my logo */
+/* =================RESETS========================*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid black; */
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--logo-orange);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+/* =================/RESETS========================*/
+
+/* Styling for the header which the nav bar is contained in. The logo and nav links are siblings so iv used space between to set them to the left and right sides fo the nav bar. Position is sticky and opacity is .75 so that the nav bar always stays at the top but you can slightly see the page scroll underneath it.*/
+
+/* I tried to have a transform: scale(1.01) on the preview boxe:hover but when the hover transitioned it would display on top of the nava bar. Setting the z-index for both these elements didnt solve the problem */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    position: sticky;
+    top: 0;
+    background: hsla(0, 0%, 100%, .75);
+    /* background: hsl(0, 0%, 100%); */
+    border-bottom: 1px solid var(--mountain-light-gray);
+    max-height: 100px;
+}
+/* Setting the width and max-width so the logo is appropriatley sized at different screen sizes*/
+#logo {
+    width: 13vw;
+    max-width: 100px;
+}
+/* These classes are setting the color and hover states for the anchor tags (About, Projects and BLog) in the nav bar */
+nav a {
+    color: var(--mountain-medium-gray);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+nav a:hover {
+    border-bottom: 2px solid var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+/* Styling the banner image at the top of each page */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    background: url(../images/hero-landing-min.jpg) var(--mountain-light-gray) no-repeat center;
+    background-size: cover;
+    height: 50vw;
+    max-height: 300px;
+}
+
+/* Styling the main container to wrap its contents when screen size expands or contracts. Setting the color for all the text */
+main {
+    margin: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--mountain-dark-gray);
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* This allows all the heading to flex to the full width of the container while the preview cards and other text wrap */
+article h1,
+article h2,
+article h3 {
+    flex: 100%;
+}
+
+article h3 {
+    margin-bottom: 1rem;
+}
+
+/* This flexes the profile pic container to the full with and center's its contents (profcile pic img) */
+.profile-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling the profile pic */
+.profile-pic img {
+    border-radius: 50%;
+    width: 40vw;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 300px;
+    border: 2px solid var(--mountain-light-gray);
+}
+/* Styling the info text on the landing page */
+.my-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.my-info h2 {
+    flex: 1;
+}
+
+/* This is quite hacky but works to center the p */
+.my-info p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+/* styling all the headings nexted in article elements */
+article h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+article h3 {
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+article h2 {
+    margin: 0 0 1rem 0;
+}
+
+/* Styling the email input box */
+article input {
+    margin: 0 0 1rem 0;
+    padding: .25rem .5rem;
+    border: 1px solid var(--mountain-dark-gray);
+    border-radius: .25rem;  
+    text-align: center;
+}
+
+/* Creating a base class for the button div's */
+.btn {
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+} 
+
+/* styling the subscribe button and hover state */
+.btn-subscribe {
+    background: var(--mountain-light-gray);
+    border: 1px solid var(--mountain-dark-gray);
+    color: var(--cloud-white);
+    margin: 0 0 1.25rem 0;
+    text-align: center;
+}
+
+.btn-subscribe:hover {
+    background-color: var(--logo-orange);
+    cursor: pointer;
+}
+
+#instagram-icon {
+    background: url(../images/icons8-instagram-30.png);
+    height: 30px;
+    width: 30px;
+}
+
+#instagram-icon:hover {
+    background: url(../images/icons8-instagram-30-red.png);
+    cursor: pointer;
+}
+
+#github-icon {
+    background: url(../images/icons8-github-30.png);
+    height: 30px;
+    width: 30px;
+}
+
+/* Styling the image container and hover states for the social media icons */
+#github-icon:hover {
+    background: url(../images/icons8-github-30-red.png);
+    cursor: pointer;
+}
+
+#linkedin-icon {
+    background: url(../images/icons8-linkedin-circled-30.png);
+    height: 30px;
+    width: 30px;
+}
+
+#linkedin-icon:hover {
+    background: url(../images/icons8-linkedin-circled-30-red.png);
+    cursor: pointer;
+}
+
+#twitter-icon {
+    background: url(../images/icons8-twitter-30.png);
+    height: 30px;
+    width: 30px;
+}
+
+#twitter-icon:hover {
+    background: url(../images/icons8-twitter-30-red.png);
+    cursor: pointer;
+}
+
+/* Styling the social links container */
+.social-links {
+    border-top: 2px solid var(--mountain-dark-gray);
+    flex: 100%;
+    margin: 1.25rem;
+}
+
+.social-links div {
+    display: flex;
+    margin-right: .25rem;
+}
+
+.social-links p {
+    margin: .5rem 0;
+}
+
+footer {
+    margin: 0 0 1.25rem 0;
+    font-size: .75rem;
+}
+
+#copyright-info {
+    margin-left: 1.25rem;
+}
+
+
+/* These classes are used across the whole website to style the anchor tags of the current page */
+.current-page-link {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    color: var(--logo-orange);
+}
+
+
+.current-page-link:hover {
+    border-bottom: 2px dotted var(--mountain-dark-gray);
+    cursor:initial;
+}
+
+
+/* ////////Having issues with the height of the preview container flexing. And blog previews that have less text have alot of empty space ///////*/
+
+/* These classes are used for the preview cards on the Projects page and blog page. */
+.preview-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0.5rem;
+    border: 2px solid var(--mountain-light-gray);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 var(--mountain-light-gray);
+    max-width: 300px;
+    min-height: 520px;
+}
+
+.preview-card:hover {
+    box-shadow: 0 0 13px 0 var(--mountain-dark-gray);
+}
+
+.preview-card  img {
+    flex: 100%;
+    height: 30vw;
+    max-height: 150px;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+    border: 2px solid var(--mountain-light-gray);
+}
+
+
+/* Styling the scroll up button and hover state */
+#btn-scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background: url(../images/icons8-up-squared-50.png);
+    cursor: pointer;
+}
+
+#btn-scrollup:hover {
+    background: url(../images/icons8-up-squared-50-red.png);
+}
+
+
+
+
+/* Media querry's for all device responsiveness */
+
+@media screen and (min-width: 600px) and (max-width: 849px) {
+    .my-info {
+        flex: 1;
+    }
+
+    main {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1099px) {
+    .my-info {
+        flex: 1;
+        max-height: 400px;
+        justify-content: center;
+
+    }
+
+    article h1,
+    article h2 {
+        max-height: 50px;
+    }
+
+    article h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+
+    article h1,
+    article h2 {
+        max-height: 50px;
+    }
+
+    article h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .my-info {
+        justify-content: flex-start;
+    }
+
+}
+
+/* slim down the nav bar to 50px on phones when in landcape mode */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (orientation: landscape) { 
+
+    header {
+        max-height: 50px;
+    }
+}
