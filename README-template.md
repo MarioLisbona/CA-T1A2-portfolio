@@ -10,10 +10,13 @@ This is my solution for the [Coder Academy Term 1 Assignment: T1A2 - Portfolio](
   - [**Purpose**](#purpose)
   - [**Functionality / features**](#functionality--features)
   - [**Sitemap**](#sitemap)
-  - [**Wireframes**](#wireframes)
-  - [**Screenshots**](#screenshots)
-    - [**Wireframes**](#wireframes-1)
-    - [**Website**](#website)
+  - [**Wireframes & screenshots**](#wireframes--screenshots)
+    - [Landing page / Home page](#landing-page--home-page)
+    - [About](#about)
+    - [Projects](#projects)
+    - [Blog home](#blog-home)
+    - [Blog post](#blog-post)
+    - [Lightbox](#lightbox)
   - [**Target audience**](#target-audience)
   - [**Tech stack**](#tech-stack)
   - [**Useful resources**](#useful-resources)
@@ -41,15 +44,66 @@ I have adapted [JavaScript](./README-template.md#useful-resources) that i found 
 
 ## **Sitemap**
 
-![Sitemap](./docs/T1A2%20-%20Portfolio%20Website%20Sitemap.drawio.png)
+![Sitemap](./docs/t1a2-website-sitemap.png)
 
-## **Wireframes**
+## **Wireframes & screenshots**
 
-## **Screenshots**
+### Landing page / Home page
 
-### **Wireframes**
+<img src="./docs/landing-page-mobile.png" width="200" alt="landing page mobile">
+<img src="./docs/landin-page-ipad.png" width="200" alt="landing page ipad">
+<img src="./docs/landing-page-desktop.png" width="400" alt="landing page desktop">     
 
-### **Website**
+<img src="./docs/landing-page-mobile-web.png" width="200" alt="landing page mobile website">
+<img src="./docs/landing-page-ipad-web.png" width="200" alt="landing page ipad website">
+<img src="./docs/landing-page-desktop-web.png" width="400" alt="landing page desktop website">    
+
+### About
+
+<img src="./docs/about-mobile.png" width="200" alt="about mobile">
+<img src="./docs/about-ipad.png" width="200" alt="about ipad">
+<img src="./docs/about-desktop.png" width="400" alt="about desktop">    
+
+<img src="./docs/about-mobile-web.png" width="200" alt="about mobile website">
+<img src="./docs/about-ipad-web.png" width="200" alt="about ipad website">
+<img src="./docs/about-desktop-web.png" width="400" alt="about desktop website">    
+
+### Projects
+<img src="./docs/projects-mobile.png" width="200" alt="projects mobile">
+<img src="./docs/projects-ipad.png" width="200" alt="projects ipad">
+<img src="./docs/projects-desktop.png" width="400" alt="projects desktop">    
+
+<img src="./docs/projects-mobile-web.png" width="200" alt="projects mobile website">
+<img src="./docs/projects-ipad-web.png" width="200" alt="projects ipad website">
+<img src="./docs/projects-desktop-web.png" width="400" alt="projects desktop website">    
+
+### Blog home
+<img src="./docs/blog-home-mobile.png" width="200" alt="blog home mobile">
+<img src="./docs/blog-home-ipad.png" width="200" alt="blog home ipad">
+<img src="./docs/blog-home-desktop.png" width="400" alt="blog home desktop">    
+
+<img src="./docs/blog-home-mobile-web.png" width="200" alt="blog home mobile website">
+<img src="./docs/blog-home-ipad-web.png" width="200" alt="blog home ipad website">
+<img src="./docs/blog-home-desktop-web.png" width="400" alt="blog home desktop website">    
+
+### Blog post
+<img src="./docs/blog-post-mobile.png" width="200" alt="blog post mobile">
+<img src="./docs/blog-post-ipad.png" width="200" alt="blog post ipad">
+<img src="./docs/blog-post-desktop.png" width="400" alt="blog post desktop">    
+
+<img src="./docs/blog-post-mobile-web.png" width="200" alt="blog post mobile website">
+<img src="./docs/blog-post-ipad-web.png" width="200" alt="blog post ipad website">
+<img src="./docs/blog-post-desktop-web.png" width="400" alt="blog post desktop website">    
+
+### Lightbox
+<img src="./docs/lightbox-mobile.png" width="200" alt="lightbox mobile">
+<img src="./docs/lightbox-ipad.png" width="200" alt="lightbox ipad">
+<img src="./docs/lightbox-desktop.png" width="400" alt="lightbox desktop">    
+
+<img src="./docs/lightbox-mobile-web.png" width="200" alt="lightbox mobile website">
+<img src="./docs/lightbox-ipad-web.png" width="200" alt="lightbox ipad website">
+<img src="./docs/lightbox-desktop-web.png" width="400" alt="lightbox desktop website">    
+
 
 ## **Target audience**
 
@@ -72,9 +126,11 @@ My target audience is prospective employers or potential clients.
 - [W3 Schools - smooth Scrolling](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2) - This simple html declaration allows the scroll to top button to slide up smoothly rather than instatly go to the top of the page. `html {
   scroll-behavior: smooth;
 }`
-- [icons8](https://icons8.com/) - I used this site for all the icons. I ended up using .png icons because i couldnt download enough .svg files with a free account.
+- [Icons8](https://icons8.com/) - I used this site for all the icons. I ended up using .png icons because i couldnt download enough .svg files with a free account.
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/) I used this as my guide when creating this README.md
 - [Media querry for landscape phones](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) The nav bar was top large on a phone in landscape mode. This was a good reaource for media querries for mobile devides.
+- [Element position amongst siblings](https://stackoverflow.com/questions/49682476/find-elements-position-amongst-its-siblings) I used this function to find the position of the clicked photo in the lightbox thumnails.
+- [Accessing data attributes in html](https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/) This is a good blog on how to access a data attribute within a html element.
 
 ## **Author**
 
