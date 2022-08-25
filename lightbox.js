@@ -58,6 +58,7 @@ function plusSlides(n) {
 //logic fo showing thumbnails
 //just noticed the use of getElementsByClassName method. will investigate whether this can be used instead of ther ID's and array for thumbnail images
 function showSlides(n) {
+  console.log(n, "Argument passed to showSlides");
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
@@ -103,7 +104,7 @@ btnNext.addEventListener('click', () => {
 //for each element of photo array, have an event listener and when clicked pass the dataset from that element (photo number) to the currentSlide function
 photoArray.forEach(function(e) {
     e.addEventListener('click', () => {
-        currentSlide(e.dataset.pos);
+        currentSlide(parseInt(e.dataset.pos));
     })
 })
 
