@@ -16,6 +16,23 @@
     text-align: justify;
 }
 
+#advice-preview-pic {
+    background: url(../images/advice-generator-min.jpg);
+    background-size: cover;
+}
+#etch-preview-pic {
+    background: url(../images/etch-a-sketch-min.png);
+    background-size: cover;
+}
+#article-preview-pic {
+    background: url(../images/article-tooltip-min.jpg);
+    background-size: cover;
+}
+#signup-preview-pic {
+    background: url(../images/signup-form-min.jpg);
+    background-size: cover;
+}
+
 
 /* Media querry's for all device responsiveness */
 

@@ -57,37 +57,24 @@ article {
     text-decoration: none;
 }
 
-#alaska-pic,
-#fires-pic,
-#coda-pic,
-#ments-pic,
-#austria-pic {
-    flex: 100%;
-    height: 30vw;
-    max-height: 150px;
-    margin-bottom: .5rem;
-    border-radius: 5px;
-    border: 2px solid var(--mountain-light-gray);
-}
-
-#alaska-pic {
+#alaska-preview-pic {
     background: url(../images/hero-alaska-min.JPG);
     background-size: cover;
 }
-#fires-pic {
+#fires-preview-pic {
     background: url(../images/hero-fires-min.jpg);
     background-size: cover;
 }
-#coda-pic {
+#coda-preview-pic {
     background: url(../images/hero-coda-min.jpg);
     background-size: cover;
 }
-#ments-pic {
+#ments-preview-pic {
     background: url(../images/hero-ments-min.jpg);
     background-size: cover;
 }
 
-#austria-pic {
+#austria-preview-pic {
     background: url(../images/hero-austria-min.JPG);
     background-size: cover;
 }
