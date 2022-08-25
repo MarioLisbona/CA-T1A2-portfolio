@@ -1,6 +1,7 @@
 # **Code Academy - T1A2 - Portfolio: Submitted by Mario Lisbona**
 
-This is my solution for the [Coder Academy Term 1 Assignment: T1A2 - Portfolio](https://ait.instructure.com/courses/4243/assignments/47178).
+This is my solution for the [Coder Academy - Web Dev Accelerated
+Term 1 Assignment: T1A2 - Portfolio](https://ait.instructure.com/courses/4243/assignments/47178).
 
 ## **Table of contents**
 
