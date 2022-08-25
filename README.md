@@ -34,14 +34,14 @@ The purpse of this website is to both demonstrate the skills I poses in building
 
 ## **Functionality / features**
 
-This website is deisgned to be responsive across mobile, tablet and desktop devices. I have created 4 main pages that all follow a similar theme with their banner pictures of nature and the elements. I have used a minimilst design with muted colors and only one highlighting color that is used for links and hover psuedoclasses. This is the same color I have used for the brackets in my logo.
+This website is deisgned to be responsive across mobile, tablet and desktop devices. I have created 4 main pages that all follow a similar theme with their banner pictures of nature and the elements. I have used a minimilst design with muted colors and only one highlighting color that is used for links and hover pseudo-classes. This is the same color I have used for the brackets in my logo.
 
-I have adapted [JavaScript](./README-template.md#useful-resources) that i found on W3Shcools to apply a lightbox for the Blog photos. I also adapted some JavaScript for a scroll to top button. The four main pages on the website are:
+I have adapted [JavaScript](./README.md#useful-resources) that i found on W3Shcools to build a lightbox for the Blog photos. I also adapted some [JavaScript](./README.md#useful-resources) for a scroll to top button. The four main pages on the website are:
 
 - Landing Page / Home: This is the landing page and has a brief description about myself and a call to action to sign up to my blog.
 - About: This page has some information about my previous work history and a section on why i have chosen to transition into tech. Iv also included a section with my interests. There is also a section where visitors can find more information via phone and email links and a link to my resume.
 - Projects: This page has 4 preview cards that link to projects I have recently completed using HTML, CSS and JavaScript.
-- Blog: This is the blog homepage. It has its own nav bar for navigating to any of the 5 current blog posts as well as preview cards for each blog post. Each Blog post has a story a title, sub title and 6 thumbnail images at the bottom. The thumbnails can be clicked to open a lightbox showing the full image as well as thumnails and previous/next buttons on the side of the full image.
+- Blog: This is the blog homepage. It has its own nav bar for navigating to any of the 5 current blog posts as well as preview cards for each blog post. Each Blog post has a title, sub title and 6 thumbnail images at the bottom. The thumbnails can be clicked to open a lightbox showing the full image as well as thumnails and previous/next buttons on the side of the full image.
 
 ## **Sitemap**
 
@@ -119,6 +119,7 @@ My target audience is prospective employers and potential clients.
 - Sitemap: [draw.io](https://draw.io)
 - Image optimisation: [Optimizilla](https://imagecompressor.com/)
 - Color contrast checker: [webAIM](https://webaim.org/resources/contrastchecker/)
+- XML sitemap: [XML-Sitemaps](https://www.xml-sitemaps.com/)
 
 ## **Useful resources**
 
@@ -133,8 +134,11 @@ My target audience is prospective employers and potential clients.
 - [Element position amongst siblings](https://stackoverflow.com/questions/49682476/find-elements-position-amongst-its-siblings) I used this function to find the position of the clicked photo in the lightbox thumbnails.
 - [Accessing data attributes in html](https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/) This is a good blog on how to access a data attribute within a html element.
 - [XML sitemap](https://www.xml-sitemaps.com/) I used this site to create a sitemap.xml for the website.
+- [Git Undo Merge](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git/) I tried to merge commit a branch into main. There were conflicts and then i could no longer push commits to main's remote branch. I had to undo the large merge to a previous commit. This site gave some goof tips on undoing a merge commit.
 
 ## **Author**
 
 - Twitter - [@MarioLisbona](https://www.twitter.com/MarioLisbona)
 - Linkedin - [@MarioLisbona](https://www.linkedin.com/in/mario-lisbona-0496b8206/)
+
+[Go to top of page](./README.md#code-academy---t1a2---portfolio-submitted-by-mario-lisbona)
