@@ -289,14 +289,14 @@ footer {
     box-shadow: 0 0 13px 0 var(--mountain-dark-gray);
 }
 
-.preview-card  img {
+/* .preview-card  img {
     flex: 100%;
     height: 30vw;
     max-height: 150px;
     margin-bottom: .5rem;
     border-radius: 5px;
     border: 2px solid var(--mountain-light-gray);
-}
+} */
 
 
 /* Styling the scroll up button and hover state */
