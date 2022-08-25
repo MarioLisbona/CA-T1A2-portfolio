@@ -57,6 +57,7 @@ article {
     text-decoration: none;
 }
 
+/* Images for preview cards  */
 #alaska-preview-pic {
     background: url(../images/hero-alaska-min.JPG);
     background-size: cover;
