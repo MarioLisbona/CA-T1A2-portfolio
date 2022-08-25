@@ -57,6 +57,17 @@ article {
     text-decoration: none;
 }
 
+#coda-pic {
+    background: url(../images/hero-coda-min.jpg);
+    background-size: cover;
+    flex: 100%;
+    height: 30vw;
+    max-height: 150px;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+    border: 2px solid var(--mountain-light-gray);
+}
+
 /* This is to right justify the dates on each blog preview card */
 .preview-card h4:last-of-type {
     text-align: right;
