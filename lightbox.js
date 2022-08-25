@@ -17,6 +17,37 @@ const thumbSix = document.getElementById('thumb-6');
 const photoArray = [thumbOne, thumbTwo, thumbThree, thumbFour, thumbFive, thumbSix];
 
 
+// Callback function on blogphoto object. Returns an event (e) when one of objects children (the blog photo's) is clicked
+//openModal is called
+//currentSlide is passed an integer which is the position of the photo that is clicked.
+blogPhoto.addEventListener('click', function(e) {
+  openModal();
+  currentSlide(getPhotoPosition(e.target));
+});
+
+//event listening on the close button to call the closeModal function
+btnClose.addEventListener('click', () => {
+  closeModal();
+})
+
+//event listening on the prev button to call the plusSlides function
+btnPrev.addEventListener('click', () => {
+  plusSlides(-1);
+})
+
+//event listening on the prev button to call the plusSlides function
+btnNext.addEventListener('click', () => {
+  plusSlides(1);
+})
+
+//for each element of photo array, have an event listener and when clicked pass the dataset from that element (photo number) to the currentSlide function
+photoArray.forEach(function(e) {
+    e.addEventListener('click', () => {
+        currentSlide(parseInt(e.dataset.pos));
+    })
+})
+
+
 /////////////////////////////////Function definitions///////////////////////////////
 
 // Open the Modal
@@ -53,8 +84,6 @@ function plusSlides(n) {
 }
 
 
-
-
 //logic fo showing thumbnails
 //just noticed the use of getElementsByClassName method. will investigate whether this can be used instead of ther ID's and array for thumbnail images
 function showSlides(n) {
@@ -62,50 +91,23 @@ function showSlides(n) {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
+
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
+
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
-
-
-// Callback function on blogphoto object. Returns an event (e) when one of objects children (the blog photo's) is clicked
-//openModal is called
-//currentSlide is passed an integer which is the position of the photo that is clicked.
-blogPhoto.addEventListener('click', function(e) {
-  openModal();
-  currentSlide(getPhotoPosition(e.target));
-});
-
-//event listening on the close button to call the closeModal function
-btnClose.addEventListener('click', () => {
-  closeModal();
-})
-
-//event listening on the prev button to call the plusSlides function
-btnPrev.addEventListener('click', () => {
-  plusSlides(-1);
-})
-
-//event listening on the prev button to call the plusSlides function
-btnNext.addEventListener('click', () => {
-  plusSlides(1);
-})
-
-//for each element of photo array, have an event listener and when clicked pass the dataset from that element (photo number) to the currentSlide function
-photoArray.forEach(function(e) {
-    e.addEventListener('click', () => {
-        currentSlide(e.dataset.pos);
-    })
-})
-
-
-
