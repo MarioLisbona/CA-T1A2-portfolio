@@ -131,6 +131,7 @@ My target audience is prospective employers and potential clients.
 - [Media querry for landscape phones](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) The nav bar was too large on a moible device in landscape mode. This was a good reaource for media querries for mobile devices.
 - [Element position amongst siblings](https://stackoverflow.com/questions/49682476/find-elements-position-amongst-its-siblings) I used this function to find the position of the clicked photo in the lightbox thumbnails.
 - [Accessing data attributes in html](https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/) This is a good blog on how to access a data attribute within a html element.
+- [XML sitemap](https://www.xml-sitemaps.com/) I used this site to create a sitemap.xml for the website.
 
 ## **Author**
 
