@@ -6,12 +6,12 @@
 /* =================ROOT========================*/
 :root {
     /* --logo-orange: #ff5757; */
-    --logo-orange: #C20000;
+    --logo-orange: hsl(0, 100%, 38%);
     --cloud-white: hsl(240, 2%, 90%);
     --mountain-light-gray: hsl(40,2%,47%);
     --mountain-light-gray-transparent: hsla(48, 2%, 47%, 0.2);
     --mountain-medium-gray: hsl(45, 2%, 37%);
-    --mountain-dark-gray: #464543;
+    --mountain-dark-gray: hsl(40, 2%, 27%);
 }
 /* =================/ROOT========================*/
 
@@ -234,12 +234,14 @@ article input {
 /* Styling the social links container */
 .social-links {
     border-top: 2px solid var(--mountain-dark-gray);
-    flex: 100%;
+    /* flex: 100%; */
     margin: 1.25rem;
 }
-
-.social-links div {
+.social-links section {
     display: flex;
+}
+
+.social-links figure {
     margin-right: .25rem;
 }
 
@@ -390,5 +392,9 @@ footer {
 
     header {
         max-height: 50px;
+    }
+
+    main {
+        font-size: 0.75rem;
     }
 }
