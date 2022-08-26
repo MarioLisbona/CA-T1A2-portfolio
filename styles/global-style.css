@@ -393,4 +393,8 @@ footer {
     header {
         max-height: 50px;
     }
+
+    main {
+        font-size: 0.75rem;
+    }
 }
