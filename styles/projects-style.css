@@ -34,6 +34,7 @@
     background-size: cover;   
 }
 
+/* Styling the nav container for the githhub and live style links */
 .preview-card nav {
     display: flex;
     width: 100%;
@@ -41,12 +42,14 @@
     align-items: flex-start;
 }
 
+/* styling the links in the preview card */
 .preview-card a {
     color: var(--logo-orange);
     text-decoration: underline;
     margin: 0;
 }
 
+/* styling the link over state in the preview card */
 .preview-card a:hover{
     border: none;
 

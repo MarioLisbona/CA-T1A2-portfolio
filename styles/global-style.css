@@ -234,26 +234,29 @@ article input {
 /* Styling the social links container */
 .social-links {
     border-top: 2px solid var(--mountain-dark-gray);
-    /* flex: 100%; */
     margin: 1.25rem;
 }
+/* flex box for the container the social icons are nested in */
 .social-links section {
     display: flex;
 }
 
+/* margin to seperate each social icon */
 .social-links figure {
     margin-right: .25rem;
 }
 
+/* margin for the social media connect messasge */
 .social-links p {
     margin: .5rem 0;
 }
-
+/* footer styling */
 footer {
     margin: 0 0 1.25rem 0;
     font-size: .75rem;
 }
 
+/* copyright message margin */
 #copyright-info {
     margin-left: 1.25rem;
 }
