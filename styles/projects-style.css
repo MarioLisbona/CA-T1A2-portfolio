@@ -20,18 +20,25 @@
 #advice-preview-pic {
     background: url(../images/advice-generator-min.jpg);
     background-size: cover;
+    background-position: center;
 }
 #etch-preview-pic {
     background: url(../images/etch-a-sketch-min.png);
     background-size: cover;
+    background-position: center;
+
 }
 #article-preview-pic {
     background: url(../images/article-tooltip-min.jpg);
     background-size: cover;
+    background-position: center;
+
 }
 #signup-preview-pic {
     background: url(../images/signup-form-min.jpg);
     background-size: cover;   
+    background-position: center;
+
 }
 
 /* Styling the nav container for the githhub and live style links */
