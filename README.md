@@ -21,6 +21,7 @@ Term 1 Assignment: T1A2 - Portfolio](https://ait.instructure.com/courses/4243/as
   - [**Target audience**](#target-audience)
   - [**Tech stack**](#tech-stack)
   - [**Useful resources**](#useful-resources)
+  - [**Slide Deck & Presentation**](#slide-deck--presentation)
   - [**Author**](#author)
 
 ## **Links**
@@ -135,11 +136,19 @@ My target audience is prospective employers and potential clients.
 - [Accessing data attributes in html](https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/) This is a good blog on how to access a data attribute within a html element.
 - [XML sitemap](https://www.xml-sitemaps.com/) I used this site to create a sitemap.xml for the website.
 - [Git Undo Merge](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git/) I tried to merge commit a branch into main. There were conflicts and then i could no longer push commits to main's remote branch. I had to undo the large merge to a previous commit. This site gave some goof tips on undoing a merge commit.
-- [creating an ico file](https://pngtoicon.com/)
+- [creating an ico file](https://pngtoicon.com/) I used this site to convert my logo png to an ico file.
+- [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantic_elements)
+
+## **Slide Deck & Presentation**
+-[Slide Deck](https://docs.google.com/presentation/d/1Wwj4gBsXHUkRml045aRB1HQ5a6NqA0snovmy1lq4e1k/edit?usp=sharing) - View the Slide Deck.
+
+-[Presentation link - Youtube]() - View the presentation of the Slide Deck.
+
 
 ## **Author**
 
 - Twitter - [@MarioLisbona](https://www.twitter.com/MarioLisbona)
+- Github - [@MarioLisbona](https://github.com/MarioLisbona)
 - Linkedin - [@MarioLisbona](https://www.linkedin.com/in/mario-lisbona-0496b8206/)
 
 [Go to top of page](./README.md#code-academy---t1a2---portfolio-submitted-by-mario-lisbona)

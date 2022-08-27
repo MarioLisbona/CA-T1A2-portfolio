@@ -98,6 +98,7 @@ article p {
 
 /* Media querry's for all device responsiveness */
 
+/* centering the blog nav links below 500px */
 @media screen and (max-width: 500px) {
     .blog-nav {
         justify-content: center;
@@ -109,6 +110,7 @@ article p {
     }
 }
 
+/* allowing up to 4 preview cards across at these resolutions */
 @media screen and (min-width: 500px)and (max-width: 899px){
     .blog-preview-card {
         flex: 25%;
