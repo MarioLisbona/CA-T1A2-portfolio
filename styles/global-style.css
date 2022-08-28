@@ -16,7 +16,7 @@
 /* =================/ROOT========================*/
 
 /* Setting wildcard to borderbox, font and line height as well as 0 padding and margin for the entire site. */
-/* Also setting every anchor tag to the orange i sued in my logo */
+/* Also setting every anchor tag to the red i used in my logo */
 /* =================RESETS========================*/
 * {
     box-sizing: border-box;
