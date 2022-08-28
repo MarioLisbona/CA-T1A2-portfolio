@@ -18,13 +18,13 @@
   - [**Target audience**](#target-audience)
   - [**Tech stack**](#tech-stack)
   - [**Useful resources**](#useful-resources)
-  - [**Slide Deck & Presentation**](#slide-deck--presentation)
   - [**Author**](#author)
 
 ## **Links**
 
 - [Porfolio Website](https://mariolisbona.github.io/CA-T1A2-portfolio/index.html)
 - [Github Repo](https://github.com/MarioLisbona/CA-T1A2-portfolio)
+- [Slide Deck Presentation link - Youtube](https://youtu.be/V0_o_sEnVuU)
 
 ## **Purpose**
 
@@ -134,12 +134,7 @@ My target audience is prospective employers and potential clients.
 - [XML sitemap](https://www.xml-sitemaps.com/) I used this site to create a sitemap.xml for the website.
 - [Git Undo Merge](https://www.freecodecamp.org/news/git-undo-merge-how-to-revert-the-last-merge-commit-in-git/) I tried to merge commit a branch into main. There were conflicts which meant I could no longer push commits to main's remote branch. I had to undo the merge for a previous commit. This site gave some good tips on undoing a merge commit.
 - [creating an ico file](https://pngtoicon.com/) I used this site to convert my logo png to an ico file.
-
-## **Slide Deck & Presentation**
--[Slide Deck](https://docs.google.com/presentation/d/1Wwj4gBsXHUkRml045aRB1HQ5a6NqA0snovmy1lq4e1k/edit?usp=sharing) - View the Slide Deck.
-
--[Presentation link - Youtube]() - View the presentation of the Slide Deck.
-
+- [Alt text for background images](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html) I couldnt add alt text to my background img because the text would render over the image. Jairo exmplained to me that it was because i was using an empty img tag. He sent me the link to this site that shows how to add alt text to a background image.
 
 ## **Author**
 
